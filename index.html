@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Word of the Day Generator</title>
+
+
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+
+
+<script>
+
+function cap(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+</script>
+<style>
+.adjustable {
+  font-size: 16px;
+  user-select: none;
+}
+</style>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Open+Sans:wght@400&display=swap">
+  <style>
+    /* Apply Roboto font to elements with class "roboto" */
+    .roboto {
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* Apply Open Sans font to elements with class "os" */
+    .os {
+      font-family: 'Open Sans', sans-serif;
+    }
+  </style>
+
+
+
+</head>
+<body class="roboto">
+
+
+
+<div id = "form" style= "position: absolute; top: 0; left: 5px; height: 100%; width: 100%;">
+
+<h2>Enter Word of the Day</h2>
+<p>Powered by Sourabh Suneja</p>
+  <label for="word">Enter a word:</label><br>
+  <input type="text" id="word" name="word" ><br><br>
+<label for="word">Enter the pronunciation:</label><br>
+  <input type="text" id="pronunciation" name="pronunciation" ><br><br>
+<label for="meaning">Enter the word's meaning:</label><br>
+  <input type="text" id="meaning" name="meaning"><br><br>
+<label for="synonym">Enter the synonym:</label><br>
+  <input type="text" id="synonym" name="synonym"><br><br>
+<label for="word">Enter the antonym:</label><br>
+  <input type="text" id="antonym" name="antonym"><br><br>
+<label for="sentence">Enter the sentence:</label><br>
+  <input type="text" id="sentence" name="sentence"><br><br>
+  <button id = "submit">Submit</button>
+</div> 
+
+<div id = "final" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 100; background: white; display: none">
+<img id="template" style=" width: 100%; position: absolute; top: 0; left: 0;" src="template.png">
+<div class="draggable adjustable os" style="color: #004AAD; font-weight: bold; position: absolute; top: 115px; left: 100px; font-size: 20px; width: 170px; text-align: center">
+<p id ="sword" ></p>
+</div>
+
+<div class="draggable adjustable roboto" style="color: RGB(25,25,25); position: absolute; top: 159px; left: 100px; font-size: 16px; width: 170px; text-align: center">
+<p id ="spron" ></p>
+</div>
+
+<p class="draggable adjustable" id ="smean" style="color: black; position: absolute; top: 210px; left: 105px; font-size: 14px; max-width: 175px;" ></p>
+
+
+
+<p class="draggable adjustable" id ="ssynonym" style="color: #267449; font-weight: bold; position: absolute; top: 260px; left: 105px; font-size: 14px; max-width: 175px;" >Synonym: <span id = "ss"></span></p>
+
+<p class="draggable adjustable" id ="santonym" style="color: #C53534; font-weight: bold; position: absolute; top: 280px; left: 105px; font-size: 14px; max-width: 175px;" >Antonym: <span id = "sa"></span></p>
+
+<p class="draggable adjustable" id ="ssentence" style="color: #004AAD; font-weight: bold; position: absolute; top: 310px; left: 105px; font-size: 14px; max-width: 175px;" >Sentence:<br> <span id = "sse"></span></p>
+
+
+
+<button class="draggable" style="position: absolute; bottom: 20px; left: 125px; background: black; color: #fff; padding: 14px; border: 0; max-width: 160px; max-height: 50px" id="hideButton">Go back</button>
+
+<button class="draggable" style="position: absolute; bottom: 80px; left: 125px; background: black; color: #fff; padding: 14px; border: 0; max-width: 160px; max-height: 50px" id="screenshotButton">Download</button>
+
+</div>
+
+
+
+<script>
+
+const xhttp = new XMLHttpRequest();
+
+xhttp.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+        const data = JSON.parse(this.responseText);
+        if (data && data[0]) {
+            const word = data[0];
+            console.log("Word of the day: " + word);
+            document.getElementById("word").value = cap(word); 
+
+// Assuming you have an input element with id "word"
+const inputElement = document.getElementById("word");
+
+// Create and dispatch the blur event
+const blurEvent = new Event('blur');
+inputElement.dispatchEvent(blurEvent);
+
+
+
+        } else {
+            console.log("Word of the day not found.");
+        }
+    }
+};
+
+xhttp.open("GET", "https://random-word-api.herokuapp.com/word?lang=en", true);
+xhttp.send();
+
+</script>
+
+
+
+
+<script>
+
+
+document.getElementById('word').addEventListener('blur', function() {
+  let inputValue = this.value;
+  
+
+
+let link = 'https://api.datamuse.com/words?ml='+inputValue;
+let xhr = new XMLHttpRequest();
+xhr.open('GET', link, true);
+xhr.onload = function() {
+  if (xhr.status >= 200 && xhr.status < 400) {
+    let response = xhr.responseText;
+    let jsonArray = JSON.parse(response);
+    document.getElementById("synonym").value =cap(jsonArray[0].word);
+  } else {
+    console.error('Request failed');
+  }
+};
+xhr.send();
+
+
+
+
+
+
+// experimental
+
+
+let link2 = 'https://api.datamuse.com/words?rel_ant='+inputValue;
+let xhr2 = new XMLHttpRequest();
+xhr2.open('GET', link2, true);
+xhr2.onload = function() {
+  if (xhr2.status >= 200 && xhr2.status < 400) {
+    let response2 = xhr2.responseText;
+    let jsonArray2 = JSON.parse(response2);
+    document.getElementById("antonym").value =cap(jsonArray2[0].word);
+  } else {
+    console.error('Request failed');
+  }
+};
+xhr2.send();
+
+
+
+
+
+//meaning fetch
+
+
+const word = inputValue; 
+const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+
+fetch(apiUrl)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    const shortDefinition = data[0].meanings[0].definitions[0].definition;
+    
+    document.getElementById("meaning").value =`${shortDefinition}`;
+  })
+  .catch(error => {
+    console.error('Error retrieving definition:', error);
+  });
+
+
+});
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+</script>
+
+
+
+
+
+<script>
+
+document.getElementById("submit").addEventListener("click", function() {
+    var wordValue = document.getElementById("word").value;
+    var meaningValue = document.getElementById("meaning").value;
+    var synonymValue = document.getElementById("synonym").value;
+var antonymValue = document.getElementById("antonym").value;
+    var sentenceValue = document.getElementById("sentence").value;
+
+var pronValue = document.getElementById("pronunciation").value;
+
+    document.getElementById("sword").innerText = wordValue;
+document.getElementById("spron").innerText = "/ " + cap(pronValue) + " /";
+    document.getElementById("smean").innerText = "Meaning: "+ " "+ meaningValue;
+    document.getElementById("ss").innerText = synonymValue;
+
+document.getElementById("sa").innerText = antonymValue;
+
+    document.getElementById("sse").innerText = sentenceValue;
+
+    document.getElementById("final").style.display = "block";
+
+document.getElementById("form").style.display = "none";
+
+});
+
+
+</script>
+
+
+
+
+<script>
+var elements = document.getElementsByClassName("draggable");
+
+for (var i = 0; i < elements.length; i++) {
+  makeDraggable(elements[i]);
+}
+
+function makeDraggable(el) {
+  var x0, y0, offsetX, offsetY;
+
+  el.addEventListener('touchstart', function(e) {
+    var touch = e.targetTouches[0];
+    x0 = touch.clientX;
+    y0 = touch.clientY;
+    offsetX = parseFloat(getComputedStyle(el).left);
+    offsetY = parseFloat(getComputedStyle(el).top);
+  }, false);
+
+  el.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+    var touch = e.targetTouches[0];
+    el.style.left = offsetX + touch.clientX - x0 + 'px'; 
+    el.style.top = offsetY + touch.clientY - y0 + 'px'; 
+  }, false);
+}
+</script>
+
+
+<script>
+var adjustables = document.querySelectorAll('.adjustable');
+var fontSizes = [12, 14, 15, 16];
+var currentIndex = 0;
+
+adjustables.forEach(function(element) {
+  element.addEventListener('click', function() {
+    currentIndex = (currentIndex + 1) % fontSizes.length;
+    element.style.fontSize = fontSizes[currentIndex] + 'px';
+  });
+});
+</script>
+
+
+
+<script>
+    document.getElementById('hideButton').addEventListener('click', function() {
+      var finalDiv = document.getElementById('final');
+      finalDiv.style.display = 'none'; 
+document.getElementById("form").style.display = "block";
+    });
+  </script>
+
+
+
+
+
+
+<script>
+    document.getElementById('screenshotButton').addEventListener('click', function() {
+      // Specify the image element
+      var imageElement = document.getElementById('template');
+
+      // Get the dimensions of the image
+      var imageRect = imageElement.getBoundingClientRect();
+      var imageWidth = imageRect.width;
+      var imageHeight = imageRect.height;
+
+      // Use html2canvas to capture the screenshot with high quality
+      html2canvas(document.body, {
+        x: imageRect.left,
+        y: imageRect.top,
+        width: imageWidth,
+        height: imageHeight,
+        scale: 2 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
+      }).then(function(canvas) {
+        // Convert the canvas to a data URL
+        var screenshotDataUrl = canvas.toDataURL();
+
+        // Create a link and trigger a download with a dynamic file name
+        var downloadLink = document.createElement('a');
+        downloadLink.href = screenshotDataUrl;
+
+        // Generate a file name with "word-of-the-day" + today's date (DD-MM-YY) format
+        var today = new Date();
+        var formattedDate = ('0' + today.getDate()).slice(-2) + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + today.getFullYear().toString().slice(-2);
+        downloadLink.download = 'word-of-the-day_' + formattedDate + '_HD.png';
+
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+      });
+    });
+  </script>
+
+
+
+
+</body>
+</html>
