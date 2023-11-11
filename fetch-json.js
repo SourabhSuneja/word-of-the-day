@@ -3,6 +3,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () { 
     var useJsonDataCheckbox = document.getElementById('useJsonData');
     if (useJsonDataCheckbox.checked) {
         // Fetch the external JSON data
+alert("hi3");
         fetch('data.json')
             .then(response => response.json())
             .then(jsonData => {
