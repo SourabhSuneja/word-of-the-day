@@ -94,6 +94,27 @@ h2 {
 h2:hover {
   color: #e74c3c; /* Change color on hover */
 }
+
+/* Style for input labels */
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Optional: Style labels for required fields */
+label.required::after {
+  content: '*';
+  color: #e74c3c; /* Change color to your preference */
+  margin-left: 4px;
+}
+
+/* Optional: Add a subtle transition on hover for labels */
+label:hover {
+  color: #3498db; /* Change color on hover */
+}
+
 </style>
 
 
@@ -123,13 +144,13 @@ h2:hover {
 <h2>Powered by Sourabh Suneja</h2>
   <label for="word">Enter a word:</label><br>
   <input type="text" id="word" name="word" ><br><br>
-<label for="word">Enter the pronunciation:</label><br>
+<label for="pronunciation">Enter the pronunciation:</label><br>
   <input type="text" id="pronunciation" name="pronunciation" ><br><br>
 <label for="meaning">Enter the word's meaning:</label><br>
   <input type="text" id="meaning" name="meaning"><br><br>
 <label for="synonym">Enter the synonym:</label><br>
   <input type="text" id="synonym" name="synonym"><br><br>
-<label for="word">Enter the antonym:</label><br>
+<label for="antonym">Enter the antonym:</label><br>
   <input type="text" id="antonym" name="antonym"><br><br>
 <label for="sentence">Enter the sentence:</label><br>
   <input type="text" id="sentence" name="sentence"><br><br>
