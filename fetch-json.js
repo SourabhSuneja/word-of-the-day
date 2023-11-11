@@ -188,7 +188,7 @@ var jsonData = {
     },
     {
       "word": "Yearn",
-      "Meaning": "To have an intense feeling of longing for something.",
+      "meaning": "To have an intense feeling of longing for something.",
       "synonym": "Crave",
       "antonym": "Abandon",
       "sentence": "The explorer yearned to discover new lands and cultures.",
