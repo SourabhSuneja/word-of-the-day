@@ -563,7 +563,7 @@ checkbox.addEventListener("change", function() {
     ];
 
     // Preload images into the browser's cache
-    function preloadImages() {
+    function preloadTemplates() {
         for (var i = 0; i < images.length; i++) {
             var img = new Image();
             img.src = images[i];
@@ -577,7 +577,7 @@ checkbox.addEventListener("change", function() {
     }
 
     // Call the function to preload images when the page loads
-    preloadImages();
+    preloadTemplates();
 
     // Call the function to set a random image when the page loads
     setRandomImage();
