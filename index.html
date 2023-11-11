@@ -20,11 +20,56 @@ function cap(string) {
   font-size: 16px;
   user-select: none;
 }
+
 button {
   background: #000;
   color: #fff;
   padding: 12px;
   border: 0;
+}
+
+/* Style for input text */
+input[type="text"] {
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  outline: none;
+  font-size: 18px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #2ecc71; /* Change border color on focus */
+}
+
+/* Style for checkboxes */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #3498db;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+/* Optional: Style the label for checkboxes */
+label {
+  font-size: 18px;
+  margin-left: 8px;
+  color: #333;
+}
+
+/* Optional: Style checked state for checkboxes */
+input[type="checkbox"]:checked + label {
+  color: #3498db;
 }
 </style>
 
