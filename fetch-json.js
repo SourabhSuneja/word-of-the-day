@@ -1,4 +1,5 @@
-document.getElementById('loadFromJson').addEventListener('click', function () { alert("hi1");
+document.getElementById('loadFromJson').addEventListener('click', function () { 
+alert("hi1");
     // Check if the checkbox is checked
     var useJsonDataCheckbox = document.getElementById('useJsonData');
     if (useJsonDataCheckbox.checked) {
