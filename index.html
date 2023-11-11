@@ -158,8 +158,8 @@ function fetchInfo() {
 document.getElementById("meaning").value = "No meaning found";
 document.getElementById("synonym").value = "No synonym found";
 document.getElementById("antonym").value = "No antonym found";
-
-
+document.getElementById("pronunciation").value = "";
+document.getElementById("sentence").value = "";
 
 let link = 'https://api.datamuse.com/words?ml='+inputValue;
 let xhr = new XMLHttpRequest();
