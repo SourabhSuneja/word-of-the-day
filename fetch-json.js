@@ -1,6 +1,6 @@
 //JSON Dictionary
 
-jsonData = {
+var jsonData = {
   "words": [
     {
       "word": "Ambiguous",
