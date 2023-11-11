@@ -63,7 +63,7 @@ function cap(string) {
 <label>
 <input type="checkbox" id="useJsonData"> Use pre-loaded JSON data
 </label>
-<br>
+<br><br>
 <button id="loadFromJson">Load from JSON</button>
 
   <p id="date"></p><br>
@@ -399,11 +399,17 @@ checkbox.addEventListener("change", function() {
 <script>
     const wordInput = document.getElementById('word');
     wordInput.addEventListener('input', function() {
-      fetchInfo();
+      var useJsonDataCheckbox = document.getElementById('useJsonData');
+            if (useJsonDataCheckbox.checked) {
+                  fetchInfo():
+}
     });
 
     wordInput.addEventListener('blur', function() {
-      fetchInfo();
+      var useJsonDataCheckbox = document.getElementById('useJsonData');
+            if (useJsonDataCheckbox.checked) {
+                  fetchInfo():
+}
     });
     
 
