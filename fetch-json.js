@@ -3,7 +3,8 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
             var useJsonDataCheckbox = document.getElementById('useJsonData');
             if (useJsonDataCheckbox.checked) {
                 // Parse the provided JSON data
-                var jsonData = window.jsonData;
+alert(window.jsonData); 
+                var jsonData = window.jsonData; alert(jsonData);
     
                 // Pick a random word
                 var randomIndex = Math.floor(Math.random() * jsonData.words.length); 
