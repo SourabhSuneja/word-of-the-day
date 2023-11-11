@@ -79,6 +79,12 @@ input[type="checkbox"]:checked + label {
   color: #3498db;
 }
 
+input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    color: green;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
 /* Style for h1 */
 h1 {
   font-size: 24px;
