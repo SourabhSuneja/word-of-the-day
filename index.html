@@ -400,14 +400,14 @@ checkbox.addEventListener("change", function() {
     const wordInput = document.getElementById('word');
     wordInput.addEventListener('input', function() {
       var useJsonDataCheckbox = document.getElementById('useJsonData');
-            if (useJsonDataCheckbox.checked) {
+            if (!useJsonDataCheckbox.checked) {
                   fetchInfo():
 }
     });
 
     wordInput.addEventListener('blur', function() {
       var useJsonDataCheckbox = document.getElementById('useJsonData');
-            if (useJsonDataCheckbox.checked) {
+            if (!useJsonDataCheckbox.checked) {
                   fetchInfo():
 }
     });
