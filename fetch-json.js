@@ -1,4 +1,4 @@
-document.getElementById('loadFromJson').addEventListener('click', function () {
+document.getElementById('loadFromJson').addEventListener('click', function () { alert("hi1")
     // Check if the checkbox is checked
     var useJsonDataCheckbox = document.getElementById('useJsonData');
     if (useJsonDataCheckbox.checked) {
@@ -7,6 +7,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
             .then(response => response.json())
             .then(jsonData => {
                 // Pick a random word
+alert("hi2"):
                 var randomIndex = Math.floor(Math.random() * jsonData.words.length);
                 var randomWord = jsonData.words[randomIndex];
 
