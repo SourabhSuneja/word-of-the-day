@@ -10,7 +10,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
 
 
 
-jsonData = {
+var jsonData = {
   "words": [
     {
       "word": "Ambiguous",
