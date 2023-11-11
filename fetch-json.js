@@ -23,4 +23,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
         alert("Please check the 'Use pre-loaded JSON data' checkbox.");
     }
 });
-document.getElementById('loadFromJson').click();
+var useJsonDataCheckbox = document.getElementById('useJsonData');
+if(useJsonDataCheckbox.checked) {
+ document.getElementById('loadFromJson').click();
+}
