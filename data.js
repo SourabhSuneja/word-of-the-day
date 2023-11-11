@@ -1,4 +1,4 @@
-var jsonData = {
+window.jsonData = {
   "words": [
     {
       "word": "Ambiguous",
@@ -201,4 +201,4 @@ var jsonData = {
       "Pronunciation": "zel-uht"
     }
   ]
-}
+};
