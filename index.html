@@ -189,7 +189,7 @@ h1 {
 </div> 
 
 <div id = "final" style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 100; background: white; display: none">
-<img id="template" style=" width: 100%; position: absolute; top: 0; left: 0;" src="template.jpg">
+<img id="template" style=" width: 100%; position: absolute; top: 0; left: 0;" src="">
 <div class="draggable adjustable os" style="color: #004AAD; font-weight: bold; position: absolute; top: 121px; left: 100px; font-size: 20px; width: 170px; text-align: center">
 <p id ="sword" ></p>
 </div>
@@ -541,6 +541,34 @@ checkbox.addEventListener("change", function() {
 <script src="fetch-json.js"></script>
 
 <script src="background-effect.js"></script>
+
+
+<script>
+    // Array of image sources
+    var images = [
+        'template.jpg',
+        'template2.jpg',
+        'template3.jpg',
+        'template4.jpg'
+    ];
+
+    // Function to get a random index from the images array
+    function getRandomIndex() {
+        return Math.floor(Math.random() * images.length);
+    }
+
+    // Function to set a random image source
+    function setRandomImage() {
+        var randomIndex = getRandomIndex();
+        var randomImage = images[randomIndex];
+        document.getElementById('template').src = randomImage;
+    }
+
+    // Call the function to set a random image when the page loads
+    setRandomImage();
+</script>
+
+
 
 </body>
 </html>
