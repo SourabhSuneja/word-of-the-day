@@ -21,7 +21,7 @@ alert("hi2");
                 document.getElementById('sentence').value = randomWord.sentence;
                 document.getElementById('pronunciation').value = randomWord.pronunciation;
             })
-            .catch(error => console.error('Error fetching JSON:', error));
+            .catch(error => console.error('Error fetching JSON:', error)); alert(error);
     } else {
         alert("Please check the 'Use pre-loaded JSON data' checkbox.");
     }
