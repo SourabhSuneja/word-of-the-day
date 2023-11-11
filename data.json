@@ -1,4 +1,4 @@
-const jsonData = {
+{
   "words": [
     {
       "word": "Ambiguous",
@@ -157,48 +157,48 @@ const jsonData = {
       "meaning": "Present, appearing, or found everywhere.",
       "synonym": "Pervasive",
       "antonym": "Rare,
-      "Sentence": "In the modern world, smartphones are ubiquitous.",
-      "Pronunciation": "yoo-bi-kwuh-tuhs"
+      "sentence": "In the modern world, smartphones are ubiquitous.",
+      "pronunciation": "yoo-bi-kwuh-tuhs"
     },
     {
-      "Word": "Voracious",
-      "Meaning": "Wanting or devouring great quantities of food.",
-      "Synonym": "Insatiable",
-      "Antonym": "Moderate",
-      "Sentence": "After the hike, they had a voracious appetite and finished the entire pizza.",
-      "Pronunciation": "vuh-rey-shuhs"
+      "word": "Voracious",
+      "meaning": "Wanting or devouring great quantities of food.",
+      "synonym": "Insatiable",
+      "antonym": "Moderate",
+      "sentence": "After the hike, they had a voracious appetite and finished the entire pizza.",
+      "pronunciation": "vuh-rey-shuhs"
     },
     {
-      "Word": "Whimsical",
-      "Meaning": "Playfully quaint or fanciful, especially in an appealing and amusing way.",
-      "Synonym": "Playful",
-      "Antonym": "Serious",
-      "Sentence": "The whimsical design of the amusement park attracted visitors of all ages.",
-      "Pronunciation": "hwim-si-kuhl"
+      "word": "Whimsical",
+      "meaning": "Playfully quaint or fanciful, especially in an appealing and amusing way.",
+      "synonym": "Playful",
+      "antonym": "Serious",
+      "sentence": "The whimsical design of the amusement park attracted visitors of all ages.",
+      "pronunciation": "hwim-si-kuhl"
     },
     {
-      "Word": "Xenophobia",
-      "Meaning": "Dislike or prejudice against people from other countries.",
-      "Synonym": "Nativism",
-      "Antonym": "Open-mindedness",
-      "Sentence": "Xenophobia can hinder cultural understanding and harmony.",
-      "Pronunciation": "zen-uh-foh-bee-uh"
+      "word": "Xenophobia",
+      "meaning": "Dislike or prejudice against people from other countries.",
+      "synonym": "Nativism",
+      "antonym": "Open-mindedness",
+      "sentence": "Xenophobia can hinder cultural understanding and harmony.",
+      "pronunciation": "zen-uh-foh-bee-uh"
     },
     {
-      "Word": "Yearn",
-      "Meaning": "To have an intense feeling of longing for something.",
-      "Synonym": "Crave",
-      "Antonym": "Abandon",
-      "Sentence": "The explorer yearned to discover new lands and cultures.",
-      "Pronunciation": "yurn"
+      "word": "Yearn",
+      "meaning": "To have an intense feeling of longing for something.",
+      "synonym": "Crave",
+      "antonym": "Abandon",
+      "sentence": "The explorer yearned to discover new lands and cultures.",
+      "pronunciation": "yurn"
     },
     {
-      "Word": "Zealot",
-      "Meaning": "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
-      "Synonym": "Fanatic",
-      "Antonym": "Moderate",
-      "Sentence": "The political zealot passionately campaigned for his candidate.",
-      "Pronunciation": "zel-uht"
+      "word": "Zealot",
+      "meaning": "A person who is fanatical and uncompromising in pursuit of their religious, political, or other ideals.",
+      "synonym": "Fanatic",
+      "antonym": "Moderate",
+      "sentence": "The political zealot passionately campaigned for his candidate.",
+      "pronunciation": "zel-uht"
     }
   ]
 }
