@@ -206,7 +206,7 @@ var jsonData = {
 }; 
 
 
-
+alert(jsonData);
 
 
 // fetching code starts
@@ -219,6 +219,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
     
                 // Pick a random word
                 var randomIndex = Math.floor(Math.random() * jsonData.words.length); 
+alert(jsonData);
                 var randomWord = jsonData.words[randomIndex];
 
                 // Insert data into corresponding input fields
