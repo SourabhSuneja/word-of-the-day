@@ -4,9 +4,6 @@
 
 
 
-alert("Hi");
-
-
 // fetching code starts
 
 document.getElementById('loadFromJson').addEventListener('click', function () {
@@ -14,6 +11,34 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
             var useJsonDataCheckbox = document.getElementById('useJsonData');
             if (useJsonDataCheckbox.checked) {
                 // Parse the provided JSON data
+
+
+
+
+var jsonData = {
+  "words": [
+    {
+      "word": "Ambiguous",
+      "meaning": "Having more than one possible interpretation.",
+      "synonym": "Uncertain",
+      "antonym": "Clear",
+      "sentence": "The instructions were ambiguous, leaving the students confused about the assignment.",
+      "pronunciation": "am-big-yoo-uhs"
+    },
+    {
+      "word": "Cacophony",
+      "meaning": "A harsh, discordant mixture of sounds.",
+      "synonym": "Noise",
+      "antonym": "Harmony",
+      "sentence": "The cacophony of honking horns made it hard to concentrate in the busy city.",
+      "pronunciation": "kuh-kaw-fuh-nee"
+    }]};
+
+
+
+
+
+
     
                 // Pick a random word
                 var randomIndex = Math.floor(Math.random() * jsonData.words.length); 
