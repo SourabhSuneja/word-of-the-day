@@ -199,6 +199,205 @@
       "antonym": "Moderate",
       "sentence": "The political zealot passionately campaigned for his candidate.",
       "pronunciation": "zel-uht"
+    },
+      "word": "Amicable",
+      "meaning": "Characterized by friendliness and a lack of hostility.",
+      "synonym": "Friendly",
+      "antonym": "Hostile",
+      "sentence": "Despite their differences, they managed to reach an amicable agreement.",
+      "pronunciation": "am-i-kuh-buhl"
+    },
+    {
+      "word": "Benevolent",
+      "meaning": "Showing kindness and goodwill.",
+      "synonym": "Kind",
+      "antonym": "Malevolent",
+      "sentence": "The benevolent leader worked tirelessly for the welfare of his people.",
+      "pronunciation": "buh-nev-uh-luhnt"
+    },
+    {
+      "word": "Credulous",
+      "meaning": "Willing to believe or trust too readily, especially without proper evidence.",
+      "synonym": "Gullible",
+      "antonym": "Skeptical",
+      "sentence": "His credulous nature made him susceptible to scams.",
+      "pronunciation": "kred-yuh-luhs"
+    },
+    {
+      "word": "Disparate",
+      "meaning": "Essentially different; distinct in quality or character.",
+      "synonym": "Diverse",
+      "antonym": "Similar",
+      "sentence": "The team had disparate opinions on how to approach the project.",
+      "pronunciation": "dis-puh-rit"
+    },
+    {
+      "word": "Ephemeral",
+      "meaning": "Lasting for a very short time.",
+      "synonym": "Transient",
+      "antonym": "Permanent",
+      "sentence": "The beauty of the cherry blossoms is ephemeral, lasting only a few days.",
+      "pronunciation": "ih-fem-er-uhl"
+    },
+    {
+      "word": "Fervent",
+      "meaning": "Having or displaying a passionate intensity.",
+      "synonym": "Zealous",
+      "antonym": "Indifferent",
+      "sentence": "Her fervent dedication to the cause inspired others to join.",
+      "pronunciation": "fur-vuhnt"
+    },
+    {
+      "word": "Garrulous",
+      "meaning": "Excessively talkative, especially on trivial matters.",
+      "synonym": "Chatty",
+      "antonym": "Reserved",
+      "sentence": "The garrulous old man enjoyed sharing stories with anyone who would listen.",
+      "pronunciation": "gar-uh-luhs"
+    },
+    {
+      "word": "Hapless",
+      "meaning": "Unfortunate or unlucky.",
+      "synonym": "Unlucky",
+      "antonym": "Fortunate",
+      "sentence": "The hapless traveler got caught in a sudden rainstorm without an umbrella.",
+      "pronunciation": "hap-lis"
+    },
+    {
+      "word": "Iconoclast",
+      "meaning": "A person who attacks or criticizes traditional or popular beliefs.",
+      "synonym": "Rebel",
+      "antonym": "Conformist",
+      "sentence": "The artist was considered an iconoclast for challenging artistic norms.",
+      "pronunciation": "ahy-kon-uh-klast"
+    },
+    {
+      "word": "Jubilant",
+      "meaning": "Feeling or expressing great joy and triumph.",
+      "synonym": "Joyful",
+      "antonym": "Mournful",
+      "sentence": "The team was jubilant after winning the championship.",
+      "pronunciation": "joo-buh-luhnt"
+    },
+    {
+      "word": "Kowtow",
+      "meaning": "To act in an excessively subservient manner.",
+      "synonym": "Submit",
+      "antonym": "Defy",
+      "sentence": "He refused to kowtow to the unreasonable demands of his boss.",
+      "pronunciation": "kou-tou"
+    },
+    {
+      "word": "Languish",
+      "meaning": "To become feeble or weak, especially from lack of attention.",
+      "synonym": "Droop",
+      "antonym": "Thrive",
+      "sentence": "Without sunlight, the plants began to languish in the dark corner.",
+      "pronunciation": "lang-gwish"
+    },
+    {
+      "word": "Mirth",
+      "meaning": "Amusement, especially as expressed in laughter.",
+      "synonym": "Joy",
+      "antonym": "Sorrow",
+      "sentence": "The comedian's performance filled the room with infectious mirth.",
+      "pronunciation": "mərθ"
+    },
+    {
+      "word": "Nascent",
+      "meaning": "Just beginning to exist or develop.",
+      "synonym": "Emerging",
+      "antonym": "Mature",
+      "sentence": "The company was in its nascent stage, with promising ideas for growth.",
+      "pronunciation": "nas-uhnt"
+    },
+    {
+      "word": "Obfuscate",
+      "meaning": "To deliberately make something unclear or difficult to understand.",
+      "synonym": "Confuse",
+      "antonym": "Clarify",
+      "sentence": "The politician tried to obfuscate the issue with complex explanations.",
+      "pronunciation": "ob-fuh-skeyt"
+    },
+    {
+      "word": "Pellucid",
+      "meaning": "Translucently clear; easily understandable.",
+      "synonym": "Clear",
+      "antonym": "Opaque",
+      "sentence": "The pellucid water allowed us to see the colorful fish swimming below.",
+      "pronunciation": "puh-loo-sid"
+    },
+    {
+      "word": "Quixotic",
+      "meaning": "Exceedingly idealistic, unrealistic, and impractical.",
+      "synonym": "Idealistic",
+      "antonym": "Pragmatic",
+      "sentence": "His quixotic dreams of changing the world faced harsh realities.",
+      "pronunciation": "kwik-sot-ik"
+    },
+    {
+      "word": "Reticent",
+      "meaning": "Not revealing one's thoughts or feelings readily.",
+      "synonym": "Reserved",
+      "antonym": "Talkative",
+      "sentence": "The usually reticent girl surprised everyone by speaking passionately about her beliefs.",
+      "pronunciation": "ret-uh-suhnt"
+    },
+    {
+      "word": "Serendipity",
+      "meaning": "The occurrence and development of events by chance in a happy or beneficial way.",
+      "synonym": "Fortuity",
+      "antonym": "Misfortune",
+      "sentence": "Their meeting was a serendipity that led to a lifelong friendship.",
+      "pronunciation": "ser-uhn-dip-i-tee"
+    },
+    {
+      "word": "Tantamount",
+      "meaning": "Equivalent in seriousness to; virtually the same as.",
+      "synonym": "Equal",
+      "antonym": "Different",
+      "sentence": "His actions were tantamount to admitting guilt in the eyes of the law.",
+      "pronunciation": "tan-tuh-mount"
+    },
+    {
+      "word": "Ubiquitous",
+      "meaning": "Present, appearing, or found everywhere.",
+      "synonym": "Pervasive",
+      "antonym": "Rare",
+      "sentence": "In the modern world, smartphones are ubiquitous.",
+      "pronunciation": "yoo-bi-kwuh-tuhs"
+    },
+    {
+      "word": "Voracious",
+      "meaning": "Wanting or devouring great quantities of food.",
+      "synonym": "Insatiable",
+      "antonym": "Moderate",
+      "sentence": "After the hike, they had a voracious appetite and finished the entire pizza.",
+      "pronunciation": "vuh-rey-shuhs"
+    },
+    {
+      "word": "Whimsical",
+      "meaning": "Playfully quaint or fanciful, especially in an appealing and amusing way.",
+      "synonym": "Playful",
+      "antonym": "Serious",
+      "sentence": "The whimsical design of the amusement park attracted visitors of all ages.",
+      "pronunciation": "hwim-si-kuhl"
+    },
+    {
+      "word": "Xenophobia",
+      "meaning": "Dislike or prejudice against people from other countries.",
+      "synonym": "Nativism",
+      "antonym": "Open-mindedness",
+      "sentence": "Xenophobia can hinder cultural understanding and harmony.",
+      "pronunciation": "zen-uh-foh-bee-uh"
+    },
+    {
+      "word": "Yearn",
+      "meaning": "To have an intense feeling of longing for something.",
+      "synonym": "Crave",
+      "antonym": "Abandon",
+      "sentence": "The explorer yearned to discover new lands and cultures.",
+      "pronunciation": "yurn"
     }
   ]
 }
