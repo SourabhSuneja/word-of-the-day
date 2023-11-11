@@ -3,9 +3,34 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
             var useJsonDataCheckbox = document.getElementById('useJsonData');
             if (useJsonDataCheckbox.checked) {
                 // Parse the provided JSON data
-         alert("Run");       
+         alert("Run");   
+
+
+
+
+
+
+jsonData = {
+  "words": [
+    {
+      "word": "Ambiguous",
+      "meaning": "Having more than one possible interpretation.",
+      "synonym": "Uncertain",
+      "antonym": "Clear",
+      "sentence": "The instructions were ambiguous, leaving the students confused about the assignment.",
+      "pronunciation": "am-big-yoo-uhs"
+    }]}
+
+
+
+
+
+
+
+
+    
                 // Pick a random word
-                var randomIndex = Math.floor(Math.random() * jsonData.words.length);
+                var randomIndex = Math.floor(Math.random() * jsonData.words.length); randomIndex=0;
                 var randomWord = jsonData.words[randomIndex];
 
                 // Insert data into corresponding input fields
