@@ -1,4 +1,4 @@
-const jsonData = {
+var jsonData = {
   "words": [
     {
       "word": "Ambiguous",
