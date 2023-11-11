@@ -17,6 +17,14 @@
 function cap(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 } 
+
+// Function to set a random image source
+    function setRandomImage() {
+        var randomIndex = getRandomIndex();
+        var randomImage = images[randomIndex];
+        document.getElementById('template').src = randomImage;
+    }
+
 </script>
 <style>
 
@@ -386,6 +394,8 @@ document.getElementById("sa").innerText = antonymValue;
 
 document.getElementById("form").style.display = "none";
 
+setRandomImage();
+
 });
 
 
@@ -557,12 +567,7 @@ checkbox.addEventListener("change", function() {
         return Math.floor(Math.random() * images.length);
     }
 
-    // Function to set a random image source
-    function setRandomImage() {
-        var randomIndex = getRandomIndex();
-        var randomImage = images[randomIndex];
-        document.getElementById('template').src = randomImage;
-    }
+    
 
     // Call the function to set a random image when the page loads
     setRandomImage();
