@@ -562,12 +562,22 @@ checkbox.addEventListener("change", function() {
         'template4.jpg'
     ];
 
+    // Preload images into the browser's cache
+    function preloadImages() {
+        for (var i = 0; i < images.length; i++) {
+            var img = new Image();
+            img.src = images[i];
+        }
+    }
+
+
     // Function to get a random index from the images array
     function getRandomIndex() {
         return Math.floor(Math.random() * images.length);
     }
 
-    
+    // Call the function to preload images when the page loads
+    preloadImages();
 
     // Call the function to set a random image when the page loads
     setRandomImage();
