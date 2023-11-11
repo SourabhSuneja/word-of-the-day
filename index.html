@@ -113,7 +113,11 @@ xhttp.onreadystatechange = function() {
         if (data && data[0]) {
             const word = data[0];
             console.log("Word of the day: " + word);
-            document.getElementById("word").value = cap(word); 
+           
+        var useJsonDataCheckbox = document.getElementById('useJsonData');
+           if (!useJsonDataCheckbox.checked) {
+document.getElementById("word").value = cap(word); 
+        
 
 // Assuming you have an input element with id "word"
 const inputElement = document.getElementById("word");
@@ -122,7 +126,7 @@ const inputElement = document.getElementById("word");
 const blurEvent = new Event('blur');
 inputElement.dispatchEvent(blurEvent);
 
-
+           }
 
         } else {
             console.log("Word of the day not found.");
