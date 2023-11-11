@@ -42,7 +42,7 @@ var jsonData = {
     
                 // Pick a random word
                 var randomIndex = Math.floor(Math.random() * jsonData.words.length); 
-alert(jsonData);
+alert('hi');
                 var randomWord = jsonData.words[randomIndex];
 
                 // Insert data into corresponding input fields
