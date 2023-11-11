@@ -55,21 +55,3 @@ alert(jsonData);
             } else {
                 alert("Please check the 'Use pre-loaded JSON data' checkbox.");
             }
-        var jsonData = {
-  "words": [
-    {
-      "word": "Ambiguous",
-      "meaning": "Having more than one possible interpretation.",
-      "synonym": "Uncertain",
-      "antonym": "Clear",
-      "sentence": "The instructions were ambiguous, leaving the students confused about the assignment.",
-      "pronunciation": "am-big-yoo-uhs"
-    },
-    {
-      "word": "Cacophony",
-      "meaning": "A harsh, discordant mixture of sounds.",
-      "synonym": "Noise",
-      "antonym": "Harmony",
-      "sentence": "The cacophony of honking horns made it hard to concentrate in the busy city.",
-      "pronunciation": "kuh-kaw-fuh-nee"
-    }
