@@ -161,8 +161,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%; 
-  width: 360px;
-  overflow: scroll;
+  max-width: 360px;
 }
 
 </style>
@@ -631,7 +630,7 @@ checkbox.addEventListener("change", function() {
   let startYTemplate, startHeightTemplate, startWidthTemplate;
 
   const template = document.getElementById('template');
-  let changeWidthTemplate = true; // Set to true if you want to change width proportionately
+  let changeWidthTemplate = false; // Set to true if you want to change width proportionately
 
   const startDragTemplate = function(e) {
     isDraggingTemplate = true;
@@ -663,7 +662,7 @@ checkbox.addEventListener("change", function() {
       let newHeightTemplate = startHeightTemplate + ((e.clientY || e.touches[0].clientY) - startYTemplate);
 
       // Set minimum height to prevent negative values
-      newHeightTemplate = Math.max(newHeightTemplate, 50);
+      newHeightTemplate = Math.max(newHeightTemplate, 150);
 
       // Update the element's height
       template.style.height = newHeightTemplate + 'px';
