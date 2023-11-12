@@ -634,7 +634,7 @@ checkbox.addEventListener("change", function() {
   let startYTemplate, startHeightTemplate, startWidthTemplate;
 
   const template = document.getElementById('template');
-  let changeWidthTemplate = document.getElementById("aspectRatio").checked; 
+  // let changeWidthTemplate = document.getElementById("aspectRatio").checked; 
 // Set to true if you want to change width proportionately
 
   const startDragTemplate = function(e) {
@@ -672,7 +672,7 @@ checkbox.addEventListener("change", function() {
       // Update the element's height
       template.style.height = newHeightTemplate + 'px';
 
-      if (changeWidthTemplate) {
+      if (document.getElementById('aspectRatio').checked) {
         // Adjust width proportionately
         let newWidthTemplate = (newHeightTemplate / startHeightTemplate) * startWidthTemplate;
         template.style.width = newWidthTemplate + 'px';
