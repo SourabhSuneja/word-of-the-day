@@ -935,6 +935,425 @@
       "antonym": "Careless",
       "sentence": "The security guard remained vigilant throughout the night shift.",
       "pronunciation": "vij-uh-luhnt"
+    },
+    {
+      "word": "Encounter",
+      "meaning": "A meeting, especially one that is unexpected or brief.",
+      "synonym": "Meeting",
+      "antonym": "Avoidance",
+      "sentence": "Their chance encounter at the café led to a meaningful conversation.",
+      "pronunciation": "en-koun-ter"
+    },
+    {
+      "word": "Diminish",
+      "meaning": "To make or become less in size, importance, or intensity.",
+      "synonym": "Decrease",
+      "antonym": "Increase",
+      "sentence": "The artist decided not to diminish the impact of the vibrant colors in the painting.",
+      "pronunciation": "di-min-ish"
+    },
+    {
+      "word": "Dismal",
+      "meaning": "Depressing, dreary, or gloomy.",
+      "synonym": "Sorrowful",
+      "antonym": "Bright",
+      "sentence": "The abandoned house had a dismal appearance in the fading light.",
+      "pronunciation": "diz-muhl"
+    },
+    {
+      "word": "Engrossed",
+      "meaning": "Having all one's attention or interest absorbed by someone or something.",
+      "synonym": "Absorbed",
+      "antonym": "Distracted",
+      "sentence": "She was so engrossed in the novel that she lost track of time.",
+      "pronunciation": "en-grohst"
+    },
+    {
+      "word": "Foresight",
+      "meaning": "The ability to predict or the action of predicting what will happen or be needed in the future.",
+      "synonym": "Anticipation",
+      "antonym": "Hindsight",
+      "sentence": "His foresight in planning the project helped avoid potential problems.",
+      "pronunciation": "fawr-sahyt"
+    },
+    {
+      "word": "Gusto",
+      "meaning": "Enthusiastic and vigorous enjoyment or appreciation.",
+      "synonym": "Zeal",
+      "antonym": "Apathy",
+      "sentence": "He ate his meal with gusto, savoring every bite.",
+      "pronunciation": "guhs-toh"
+    },
+    {
+      "word": "Ignite",
+      "meaning": "To catch fire or cause to catch fire.",
+      "synonym": "Kindle",
+      "antonym": "Extinguish",
+      "sentence": "He used a match to ignite the candles in the dark room.",
+      "pronunciation": "ig-nahyt"
+    },
+    {
+      "word": "Hasten",
+      "meaning": "To be quick to do something or cause something to happen sooner than expected.",
+      "synonym": "Accelerate",
+      "antonym": "Delay",
+      "sentence": "They decided to hasten the completion of the construction project.",
+      "pronunciation": "hey-suhn"
+    },
+    {
+      "word": "Impending",
+      "meaning": "About to happen; imminent.",
+      "synonym": "Approaching",
+      "antonym": "Distant",
+      "sentence": "The dark clouds signaled the impending storm.",
+      "pronunciation": "im-pen-ding"
+    },
+    {
+      "word": "Jostle",
+      "meaning": "To push, elbow, or bump against someone roughly, typically in a crowd.",
+      "synonym": "Bump",
+      "antonym": "Avoid",
+      "sentence": "In the crowded subway, people had to jostle to find space.",
+      "pronunciation": "joss-el"
+    },
+    {
+      "word": "Kindle",
+      "meaning": "To ignite or light something, or to arouse a feeling or emotion.",
+      "synonym": "Ignite",
+      "antonym": "Extinguish",
+      "sentence": "The storyteller's words were sure to kindle the children's imagination.",
+      "pronunciation": "kin-dl"
+    },
+    {
+      "word": "Recuperate",
+      "meaning": "To recover from illness or exertion.",
+      "synonym": "Recover",
+      "antonym": "Deteriorate",
+      "sentence": "After the surgery, he needed time to rest and recuperate.",
+      "pronunciation": "ri-koo-puh-reyt"
+    },
+    {
+      "word": "Scurry",
+      "meaning": "To move hurriedly with short, quick steps.",
+      "synonym": "Hurry",
+      "antonym": "Saunter",
+      "sentence": "The mice began to scurry away as soon as they sensed danger.",
+      "pronunciation": "skur-ee"
+    },
+    {
+      "word": "Repugnant",
+      "meaning": "Extremely distasteful; unacceptable.",
+      "synonym": "Offensive",
+      "antonym": "Appealing",
+      "sentence": "The idea of harming innocent creatures was repugnant to her.",
+      "pronunciation": "ri-puhg-nuhnt"
+    },
+    {
+      "word": "Versatile",
+      "meaning": "Able to adapt or be adapted to many different functions or activities.",
+      "synonym": "Adaptable",
+      "antonym": "Limited",
+      "sentence": "Her versatile skills made her an asset in various roles.",
+      "pronunciation": "vur-suh-tl"
+    },
+    {
+      "word": "Waver",
+      "meaning": "To shake with a quivering motion; to be undecided between two opinions or courses of action.",
+      "synonym": "Vacillate",
+      "antonym": "Persist",
+      "sentence": "She couldn't help but waver in her decision as the choices became more complex.",
+      "pronunciation": "wey-ver"
+    },
+    {
+      "word": "Heir",
+      "meaning": "A person legally entitled to the property or rank of another on that person's death.",
+      "synonym": "Successor",
+      "antonym": "Ancestor",
+      "sentence": "The eldest son was the heir to the family fortune.",
+      "pronunciation": "air"
+    },
+    {
+      "word": "Admirable",
+      "meaning": "Deserving respect and approval; worthy of admiration.",
+      "synonym": "Praiseworthy",
+      "antonym": "Disgraceful",
+      "sentence": "Her admirable efforts in charity work made a positive impact.",
+      "pronunciation": "ad-muh-ruh-buhl"
+    },
+    {
+      "word": "Drought",
+      "meaning": "A prolonged period of abnormally low rainfall, leading to a shortage of water.",
+      "synonym": "Dry spell",
+      "antonym": "Flood",
+      "sentence": "The farmers faced significant challenges during the severe drought.",
+      "pronunciation": "draut"
+    },
+    {
+      "word": "Cruise",
+      "meaning": "To sail about on a pleasure trip.",
+      "synonym": "Voyage",
+      "antonym": "Anchor",
+      "sentence": "They decided to cruise along the coast during their vacation.",
+      "pronunciation": "krooz"
+    },
+    {
+      "word": "Compel",
+      "meaning": "To force or oblige someone to do something.",
+      "synonym": "Force",
+      "antonym": "Allow",
+      "sentence": "The evidence will compel them to reconsider their decision.",
+      "pronunciation": "kuhm-pel"
+    },
+    {
+      "word": "Agitation",
+      "meaning": "A state of nervousness or unrest.",
+      "synonym": "Disturbance",
+      "antonym": "Calm",
+      "sentence": "The political unrest caused a significant level of agitation among the citizens.",
+      "pronunciation": "aj-i-tey-shuhn"
+    },
+    {
+      "word": "Condemn",
+      "meaning": "To express strong disapproval or censure.",
+      "synonym": "Criticize",
+      "antonym": "Praise",
+      "sentence": "The community came together to condemn the act of vandalism.",
+      "pronunciation": "kuhn-dem"
+    },
+    {
+      "word": "Harass",
+      "meaning": "To persistently annoy or torment someone.",
+      "synonym": "Molest",
+      "antonym": "Assist",
+      "sentence": "It's essential to address workplace harassment and create a safe environment.",
+      "pronunciation": "huh-ras"
+    },
+    {
+      "word": "Initiate",
+      "meaning": "To begin or introduce something.",
+      "synonym": "Commence",
+      "antonym": "Conclude",
+      "sentence": "The new employee was eager to initiate positive changes in the company.",
+      "pronunciation": "ih-nish-ee-eyt"
+    },
+    {
+      "word": "Frighten",
+      "meaning": "To cause fear or terror in someone.",
+      "synonym": "Terrify",
+      "antonym": "Reassure",
+      "sentence": "The unexpected noise in the dark alley could frighten anyone.",
+      "pronunciation": "fryt-n"
+    },
+    {
+      "word": "Novice",
+      "meaning": "A person new to or inexperienced in a field or situation.",
+      "synonym": "Beginner",
+      "antonym": "Expert",
+      "sentence": "As a novice gardener, she was excited to learn about plant care.",
+      "pronunciation": "nov-is"
+    },
+    {
+      "word": "Tactic",
+      "meaning": "An action or strategy carefully planned to achieve a specific end.",
+      "synonym": "Strategy",
+      "antonym": "Random move",
+      "sentence": "The team discussed the best tactic to win the upcoming match.",
+      "pronunciation": "tak-tik"
+    },
+    {
+      "word": "Accident",
+      "meaning": "An unfortunate incident that happens unexpectedly and unintentionally.",
+      "synonym": "Mishap",
+      "antonym": "Intentional act",
+      "sentence": "The car crash was a tragic accident that resulted in injuries.",
+      "pronunciation": "ak-si-duhnt"
+    },
+    {
+      "word": "Arrive",
+      "meaning": "To reach a destination or a certain point in a journey.",
+      "synonym": "Reach",
+      "antonym": "Depart",
+      "sentence": "They planned to arrive at the airport well before the departure time.",
+      "pronunciation": "uh-rahyv"
+    },
+    {
+      "word": "Atlas",
+      "meaning": "A collection of maps in a book or a bound set of maps.",
+      "synonym": "Map book",
+      "antonym": "Individual map",
+      "sentence": "He consulted the atlas to find the route to their destination.",
+      "pronunciation": "at-luhs"
+    },
+    {
+      "word": "Award",
+      "meaning": "A prize or other mark of recognition given in honor of an achievement.",
+      "synonym": "Prize",
+      "antonym": "Penalty",
+      "sentence": "She received an award for her outstanding contributions to the community.",
+      "pronunciation": "uh-wawrd"
+    },
+    {
+      "word": "Balance",
+      "meaning": "A state of equilibrium or stability; the ability to maintain control or stability.",
+      "synonym": "Equilibrium",
+      "antonym": "Imbalance",
+      "sentence": "Finding the right balance between work and personal life is essential.",
+      "pronunciation": "bal-uhns"
+    },
+    {
+      "word": "Bounce",
+      "meaning": "To spring back after hitting a surface; to move energetically.",
+      "synonym": "Rebound",
+      "antonym": "Limp",
+      "sentence": "The basketball had a good bounce on the court.",
+      "pronunciation": "bouns"
+    },
+    {
+      "word": "Brave",
+      "meaning": "Courageous and willing to face danger or challenges.",
+      "synonym": "Courageous",
+      "antonym": "Timid",
+      "sentence": "The firefighters exhibited brave acts during the rescue mission.",
+      "pronunciation": "breyv"
+    },
+    {
+      "word": "Bright",
+      "meaning": "Full of light or shining; intelligent and quick-witted.",
+      "synonym": "Radiant",
+      "antonym": "Dim",
+      "sentence": "The bright stars illuminated the night sky, creating a magical scene.",
+      "pronunciation": "brahyt"
+    },
+    {
+      "word": "Cage",
+      "meaning": "A structure with bars or wire for confining and containing animals.",
+      "synonym": "Enclosure",
+      "antonym": "Release",
+      "sentence": "The zoo implemented a new cage design for the exotic birds.",
+      "pronunciation": "keyj"
+    },
+    {
+      "word": "Calm",
+      "meaning": "Peaceful, free from disturbance or agitation.",
+      "synonym": "Tranquil",
+      "antonym": "Agitated",
+      "sentence": "The gentle waves and clear sky created a calm atmosphere at the beach.",
+      "pronunciation": "kahm"
+    },
+    {
+      "word": "Cheer",
+      "meaning": "Shout for joy or in praise; express happiness or approval.",
+      "synonym": "Applaud",
+      "antonym": "Boo",
+      "sentence": "The fans gathered to cheer for their favorite sports team.",
+      "pronunciation": "cheer"
+    },
+    {
+      "word": "Couple",
+      "meaning": "Two individuals considered together; a pair.",
+      "synonym": "Pair",
+      "antonym": "Single",
+      "sentence": "The couple enjoyed a romantic evening by the lakeside.",
+      "pronunciation": "kuhpl"
+    },
+    {
+      "word": "Crowd",
+      "meaning": "A large number of people gathered together, typically in a disorganized or unruly way.",
+      "synonym": "Throng",
+      "antonym": "Sparse group",
+      "sentence": "The concert drew a massive crowd of enthusiastic fans.",
+      "pronunciation": "kroud"
+    },
+    {
+      "word": "Damp",
+      "meaning": "Slightly wet, moist, or humid.",
+      "synonym": "Wet",
+      "antonym": "Dry",
+      "sentence": "The clothes left outside overnight felt damp in the morning dew.",
+      "pronunciation": "damp"
+    },
+    {
+      "word": "Dangerous",
+      "meaning": "Likely to cause harm or injury; risky.",
+      "synonym": "Hazardous",
+      "antonym": "Safe",
+      "sentence": "Swimming in the deep sea can be dangerous without proper precautions.",
+      "pronunciation": "deyn-jer-uhs"
+    },
+    {
+      "word": "Dawn",
+      "meaning": "The first appearance of light in the sky before sunrise; the beginning of a phenomenon or period.",
+      "synonym": "Sunrise",
+      "antonym": "Dusk",
+      "sentence": "They witnessed the beauty of dawn as the sun gradually rose.",
+      "pronunciation": "dawn"
+    },
+    {
+      "word": "Demolish",
+      "meaning": "To completely destroy or ruin a building or structure.",
+      "synonym": "Destroy",
+      "antonym": "Construct",
+      "sentence": "The old factory was scheduled for demolition to make way for new development.",
+      "pronunciation": "dih-mol-ish"
+    },
+    {
+      "word": "Discard",
+      "meaning": "To get rid of or throw away as no longer useful or needed.",
+      "synonym": "Dispose of",
+      "antonym": "Keep",
+      "sentence": "They decided to discard old furniture to make room for the new ones.",
+      "pronunciation": "dih-skahrd"
+    },
+    {
+      "word": "Doubt",
+      "meaning": "A feeling of uncertainty or lack of conviction; to be uncertain about.",
+      "synonym": "Uncertainty",
+      "antonym": "Certainty",
+      "sentence": "She had a lingering doubt about the accuracy of the information.",
+      "pronunciation": "dout"
+    },
+    {
+      "word": "Dozen",
+      "meaning": "A group of twelve; twelve items considered as a unit.",
+      "synonym": "Twelve",
+      "antonym": "Single",
+      "sentence": "He bought a dozen roses for their anniversary.",
+      "pronunciation": "duh-zuhn"
+    },
+    {
+      "word": "Enemy",
+      "meaning": "A person who is actively opposed or hostile to someone or something.",
+      "synonym": "Adversary",
+      "antonym": "Ally",
+      "sentence": "In times of war, distinguishing between friend and enemy becomes crucial.",
+      "pronunciation": "en-uh-mee"
+    },
+    {
+      "word": "Excess",
+      "meaning": "An amount of something that is more than necessary, permitted, or desirable.",
+      "synonym": "Surplus",
+      "antonym": "Shortage",
+      "sentence": "The buffet offered an excess of delicious dishes for the guests.",
+      "pronunciation": "ik-ses"
+    },
+    {
+      "word": "Feast",
+      "meaning": "A large and elaborate meal, usually for a celebration.",
+      "synonym": "Banquet",
+      "antonym": "Famine",
+      "sentence": "They prepared a feast to celebrate their team's victory.",
+      "pronunciation": "feest"
+    },
+    {
+      "word": "Flap",
+      "meaning": "To move up and down or back and forth quickly; a thin piece of material attached on one side.",
+      "synonym": "Flutter",
+      "antonym": "Stillness",
+      "sentence": "The bird's wings began to flap as it took off into the sky.",
+      "pronunciation": "flap"
     }
+
+    
+
   ]
 }
