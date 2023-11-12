@@ -498,8 +498,8 @@ document.getElementById("form").style.display = "block";
 
       // Use html2canvas to capture the screenshot with high quality
       html2canvas(document.body, {
-        x: imageRect.left,
-        y: imageRect.top,
+        x: imageRect.left + window.scrollX,
+        y: imageRect.top + window.scrollY,
         width: imageWidth,
         height: imageHeight,
         scale: 2 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
