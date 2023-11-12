@@ -634,7 +634,8 @@ checkbox.addEventListener("change", function() {
   let startYTemplate, startHeightTemplate, startWidthTemplate;
 
   const template = document.getElementById('template');
-  let changeWidthTemplate = false; // Set to true if you want to change width proportionately
+  let changeWidthTemplate = document.getElementById("aspectRatio").checked; 
+// Set to true if you want to change width proportionately
 
   const startDragTemplate = function(e) {
     isDraggingTemplate = true;
