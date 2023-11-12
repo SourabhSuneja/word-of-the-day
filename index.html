@@ -146,8 +146,21 @@ h1 {
   color: #4fa3e0;
 }
 
+#reloadButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+    }
+
+#reloadIcon {
+  position: absolute;
+  right: 30px;
+  transition: transform 0.5s ease;
+    }
+
 </style>
 
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Open+Sans:wght@400&display=swap">
   <style>
@@ -173,8 +186,13 @@ h1 {
 
 <h1 class="os">Word of the Day Generator</h1>
 <h2>Powered by Sourabh Suneja</h2>
-  <label for="word">Enter a word:</label><br>
-  <input type="text" id="word" name="word" ><br><br>
+  <label for="word">Enter a word:</label>
+  <br>
+  <input type="text" id="word" name="word" >
+  <button id="reloadButton">
+      <i data-feather="rotate-cw" id="reloadIcon"></i>
+  </button>
+  <br><br>
 <label for="pronunciation">Enter the pronunciation:</label><br>
   <input type="text" id="pronunciation" name="pronunciation" ><br><br>
 <label for="meaning">Enter the word's meaning:</label><br>
@@ -584,7 +602,19 @@ checkbox.addEventListener("change", function() {
     setRandomImage();
 </script>
 
+<script>
+    feather.replace();
 
+    var reloadIcon = document.getElementById('reloadIcon');
+
+    reloadIcon.addEventListener('click', function() {
+      document.getElementById('loadFromJson').click();
+      reloadIcon.style.transform = 'rotate(360deg)';
+      setTimeout(function() {
+        reloadIcon.style.transform = 'rotate(0deg)';
+      }, 500);
+    });
+  </script>
 
 </body>
 </html>
