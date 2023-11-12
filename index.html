@@ -506,7 +506,7 @@ document.getElementById('screenshotButton').addEventListener('click', function()
       y: imageRect.top + window.scrollY,
       width: imageRect.width,
       height: imageRect.height,
-      scale: 5 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
+      scale: 3 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
     }).then(function(canvas) {
       // Convert the canvas to a data URL
       var screenshotDataUrl = canvas.toDataURL();
