@@ -624,23 +624,7 @@ checkbox.addEventListener("change", function() {
     });
   </script>
 
-<script>
-    // JavaScript to set innerDiv height equal to the image height
-    window.onload = function () {
-      var innerDiv = document.getElementById('dynamicHeightInnerDiv');
-      var templateImage = document.getElementById('template');
 
-      if (templateImage.complete) {
-        setInnerDivHeight();
-      } else {
-        templateImage.onload = setInnerDivHeight;
-      }
-
-      function setInnerDivHeight() {
-        innerDiv.style.height = templateImage.offsetHeight + 'px';
-      }
-    };
-  </script>
 
 </body>
 </html>
