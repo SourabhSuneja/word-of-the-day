@@ -146,14 +146,11 @@ h1 {
   color: #4fa3e0;
 }
 
-#reloadButton {
-  background: none;
-  border: none;
-  cursor: pointer;
-    }
 
 #reloadIcon {
   transition: transform 0.5s ease;
+  position: relative;
+  left: 24px;
     }
 
 </style>
@@ -187,9 +184,7 @@ h1 {
   <label for="word">Enter a word:</label>
   <br>
   <input type="text" id="word" name="word" >
-  <button id="reloadButton">
-      <i data-feather="rotate-cw" id="reloadIcon"></i>
-  </button>
+  <i data-feather="rotate-cw" id="reloadIcon"></i>
   <br><br>
 <label for="pronunciation">Enter the pronunciation:</label><br>
   <input type="text" id="pronunciation" name="pronunciation" ><br><br>
