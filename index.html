@@ -491,41 +491,52 @@ document.getElementById("form").style.display = "block";
 
 
 <script>
-    document.getElementById('screenshotButton').addEventListener('click', function() {
-      // Specify the image element
-      var imageElement = document.getElementById('template');
+    
+ document.getElementById('screenshotButton').addEventListener('click', function() {
+    // Specify the image element
+    var imageElement = document.getElementById('template');
 
-      // Get the dimensions of the image
-      var imageRect = imageElement.getBoundingClientRect();
-      var imageWidth = imageRect.width;
-      var imageHeight = imageRect.height;
+    // Get the current position and dimensions of the image
+    var imageRect = imageElement.getBoundingClientRect();
 
-      // Use html2canvas to capture the screenshot with high quality
-      html2canvas(document.body, {
-        x: imageRect.left + window.scrollX,
-        y: imageRect.top + window.scrollY,
-        width: imageWidth,
-        height: imageHeight,
-        scale: 2 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
-      }).then(function(canvas) {
-        // Convert the canvas to a data URL
-        var screenshotDataUrl = canvas.toDataURL();
+    // Calculate the scroll needed to make the entire image visible
+    var scrollX = imageRect.left + window.scrollX;
+    var scrollY = imageRect.top + window.scrollY;
 
-        // Create a link and trigger a download with a dynamic file name
-        var downloadLink = document.createElement('a');
-        downloadLink.href = screenshotDataUrl;
+    // Scroll the page to make the entire image visible
+    window.scrollTo(scrollX, scrollY);
 
-        // Generate a file name with "word-of-the-day" + today's date (DD-MM-YY) format
-        var today = new Date();
-        var formattedDate = ('0' + today.getDate()).slice(-2) + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + today.getFullYear().toString().slice(-2);
-        downloadLink.download = 'word-of-the-day_' + formattedDate + '_HD.png';
+    // Use html2canvas to capture the screenshot with high quality
+    html2canvas(document.body, {
+      x: 0,
+      y: 0,
+      width: document.body.scrollWidth, // Capture the entire width of the body
+      height: document.body.scrollHeight, // Capture the entire height of the body
+      scale: 2 // Adjust the scale for HD quality (e.g., 2 for 2x scale)
+    }).then(function(canvas) {
+      // Reset the scroll position to its original state
+      window.scrollTo(window.scrollX, window.scrollY);
 
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
-      });
+      // Convert the canvas to a data URL
+      var screenshotDataUrl = canvas.toDataURL();
+
+      // Create a link and trigger a download with a dynamic file name
+      var downloadLink = document.createElement('a');
+      downloadLink.href = screenshotDataUrl;
+
+      // Generate a file name with "word-of-the-day" + today's date (DD-MM-YY) format
+      var today = new Date();
+      var formattedDate = ('0' + today.getDate()).slice(-2) + '-' + ('0' + (today.getMonth() + 1)).slice(-2) + '-' + today.getFullYear().toString().slice(-2);
+      downloadLink.download = 'word-of-the-day_' + formattedDate + '_HD.png';
+
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
     });
-  </script>
+  });       
+
+        
+</script>
 
 
 
