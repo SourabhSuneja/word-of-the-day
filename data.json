@@ -799,6 +799,142 @@
       "antonym": "Stagnation",
       "sentence": "Businesses thrive when they encourage and embrace innovation.",
       "pronunciation": "in-uh-vey-shuhn"
+    },
+    {
+      "word": "Steadfast",
+      "meaning": "Resolutely or dutifully firm and unwavering.",
+      "synonym": "Staunch",
+      "antonym": "Unsteady",
+      "sentence": "His steadfast commitment to his goals fueled his success.",
+      "pronunciation": "sted-fast"
+    },
+    {
+      "word": "Banish",
+      "meaning": "To send away, prohibit, or exile, typically as a punishment.",
+      "synonym": "Exile",
+      "antonym": "Welcome",
+      "sentence": "The king decided to banish the traitor from the kingdom.",
+      "pronunciation": "ban-ish"
+    },
+    {
+      "word": "Bluff",
+      "meaning": "To deceive or mislead, especially by a show of strength or confidence.",
+      "synonym": "Deceive",
+      "antonym": "Honest",
+      "sentence": "He tried to bluff his way through the difficult conversation.",
+      "pronunciation": "bluhf"
+    },
+    {
+      "word": "Concoction",
+      "meaning": "A mixture of various ingredients or elements.",
+      "synonym": "Brew",
+      "antonym": "Simplicity",
+      "sentence": "The chef's special concoction of spices created a unique flavor.",
+      "pronunciation": "kuhn-kok-shuhn"
+    },
+    {
+      "word": "Aptitude",
+      "meaning": "Natural ability or talent for a specific activity.",
+      "synonym": "Skill",
+      "antonym": "Ineptitude",
+      "sentence": "Her aptitude for mathematics made her excel in the subject.",
+      "pronunciation": "ap-ti-tood"
+    },
+    {
+      "word": "Defiance",
+      "meaning": "Open resistance or bold disobedience.",
+      "synonym": "Resistance",
+      "antonym": "Submission",
+      "sentence": "The protest was an act of defiance against the unjust laws.",
+      "pronunciation": "di-fahy-uhns"
+    },
+    {
+      "word": "Disdain",
+      "meaning": "The feeling that someone or something is unworthy of one's consideration or respect.",
+      "synonym": "Contempt",
+      "antonym": "Respect",
+      "sentence": "She couldn't hide her disdain for the dishonest behavior.",
+      "pronunciation": "dis-deyn"
+    },
+    {
+      "word": "Falter",
+      "meaning": "To hesitate or waver in action, belief, or purpose.",
+      "synonym": "Stumble",
+      "antonym": "Persist",
+      "sentence": "His confidence began to falter as the challenges intensified.",
+      "pronunciation": "fawl-ter"
+    },
+    {
+      "word": "Grueling",
+      "meaning": "Exhausting and demanding, requiring a lot of effort and hard work.",
+      "synonym": "Exhaustive",
+      "antonym": "Easy",
+      "sentence": "The marathon was a grueling test of endurance.",
+      "pronunciation": "groo-uh-ling"
+    },
+    {
+      "word": "Meander",
+      "meaning": "To follow a winding or intricate course.",
+      "synonym": "Wander",
+      "antonym": "Straighten",
+      "sentence": "The river continued to meander through the picturesque landscape.",
+      "pronunciation": "mee-an-der"
+    },
+    {
+      "word": "Monotonous",
+      "meaning": "Lacking in variety and interest, often repetitious and tedious.",
+      "synonym": "Tedious",
+      "antonym": "Varied",
+      "sentence": "The monotonous sound of the dripping water echoed in the cave.",
+      "pronunciation": "muh-not-nuhs"
+    },
+    {
+      "word": "Muster",
+      "meaning": "To assemble or gather, especially for inspection or preparation.",
+      "synonym": "Gather",
+      "antonym": "Disperse",
+      "sentence": "The soldiers had to muster for the morning drill.",
+      "pronunciation": "muhs-ter"
+    },
+    {
+      "word": "Obscure",
+      "meaning": "Not clear or easily understood, not well-known or prominent.",
+      "synonym": "Uncertain",
+      "antonym": "Clear",
+      "sentence": "The ancient manuscript contained obscure symbols and writings.",
+      "pronunciation": "uhb-skyoor"
+    },
+    {
+      "word": "Pristine",
+      "meaning": "In its original condition; unspoiled.",
+      "synonym": "Untouched",
+      "antonym": "Tarnished",
+      "sentence": "The hikers discovered a pristine lake hidden in the remote mountains.",
+      "pronunciation": "pris-teen"
+    },
+    {
+      "word": "Replenish",
+      "meaning": "To fill or restore a supply or stock to its former level.",
+      "synonym": "Refill",
+      "antonym": "Deplete",
+      "sentence": "The store needed to replenish its shelves after a busy weekend.",
+      "pronunciation": "ri-plen-ish"
+    },
+    {
+      "word": "Serenity",
+      "meaning": "The state of being calm, peaceful, and untroubled.",
+      "synonym": "Tranquility",
+      "antonym": "Chaos",
+      "sentence": "The garden exuded an air of serenity, providing a peaceful escape.",
+      "pronunciation": "suh-ren-i-tee"
+    },
+    {
+      "word": "Vigilant",
+      "meaning": "Watchful and alert to detect danger or threats.",
+      "synonym": "Alert",
+      "antonym": "Careless",
+      "sentence": "The security guard remained vigilant throughout the night shift.",
+      "pronunciation": "vij-uh-luhnt"
     }
   ]
 }
