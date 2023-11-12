@@ -625,5 +625,64 @@ checkbox.addEventListener("change", function() {
 
 
 
+<script>
+  let isDraggingTemplate = false;
+  let startYTemplate, startHeightTemplate, startWidthTemplate;
+
+  const template = document.getElementById('template');
+  let changeWidthTemplate = true; // Set to true if you want to change width proportionately
+
+  const startDragTemplate = function(e) {
+    isDraggingTemplate = true;
+    startYTemplate = e.clientY || e.touches[0].clientY;
+    startHeightTemplate = template.offsetHeight;
+    startWidthTemplate = template.offsetWidth;
+
+    // Change cursor style
+    template.style.cursor = 'grabbing';
+
+    // Prevent text selection during drag
+    document.body.style.userSelect = 'none';
+  };
+
+  const endDragTemplate = function() {
+    if (isDraggingTemplate) {
+      isDraggingTemplate = false;
+
+      // Reset cursor style
+      template.style.cursor = 'grab';
+
+      // Reset text selection
+      document.body.style.userSelect = 'auto';
+    }
+  };
+
+  const dragTemplate = function(e) {
+    if (isDraggingTemplate) {
+      let newHeightTemplate = startHeightTemplate + ((e.clientY || e.touches[0].clientY) - startYTemplate);
+
+      // Set minimum height to prevent negative values
+      newHeightTemplate = Math.max(newHeightTemplate, 50);
+
+      // Update the element's height
+      template.style.height = newHeightTemplate + 'px';
+
+      if (changeWidthTemplate) {
+        // Adjust width proportionately
+        let newWidthTemplate = (newHeightTemplate / startHeightTemplate) * startWidthTemplate;
+        template.style.width = newWidthTemplate + 'px';
+      }
+    }
+  };
+
+  template.addEventListener('mousedown', startDragTemplate);
+  document.addEventListener('mouseup', endDragTemplate);
+  document.addEventListener('mousemove', dragTemplate);
+
+  template.addEventListener('touchstart', startDragTemplate);
+  document.addEventListener('touchend', endDragTemplate);
+  document.addEventListener('touchmove', dragTemplate);
+</script>
+
 </body>
 </html>
