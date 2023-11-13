@@ -2,16 +2,6 @@
 var jsonSources = ['data1.json', 'data2.json']; // Add more sources as needed
 var jsonDataCache = {}; // Cache to store pre-loaded JSON data
 
-// Cache DOM elements
-var loadFromJsonButton = document.getElementById('loadFromJson');
-var useJsonDataCheckbox = document.getElementById('useJsonData');
-var wordInput = document.getElementById('word');
-var meaningInput = document.getElementById('meaning');
-var synonymInput = document.getElementById('synonym');
-var antonymInput = document.getElementById('antonym');
-var sentenceInput = document.getElementById('sentence');
-var pronunciationInput = document.getElementById('pronunciation');
-
 // Function to fetch and cache JSON data
 function fetchAndCacheJsonData(source) {
     return fetch(source)
@@ -28,8 +18,10 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
         // All JSON files have been fetched and cached
 
         // Attach event handler after all JSON files have been loaded
-        loadFromJsonButton.addEventListener('click', function () {
+        document.getElementById('loadFromJson').addEventListener('click', function () {
             // Check if the useJsonData checkbox is checked
+            var useJsonDataCheckbox = document.getElementById('useJsonData');
+
             if (useJsonDataCheckbox.checked) {
                 // Event handler logic when the checkbox is checked
 
@@ -45,12 +37,12 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
                     var randomWord = jsonData.words[randomIndex];
 
                     // Insert data into corresponding input fields
-                    wordInput.value = randomWord.word;
-                    meaningInput.value = randomWord.meaning;
-                    synonymInput.value = randomWord.synonym;
-                    antonymInput.value = randomWord.antonym;
-                    sentenceInput.value = randomWord.sentence;
-                    pronunciationInput.value = randomWord.pronunciation;
+                    document.getElementById('word').value = randomWord.word;
+                    document.getElementById('meaning').value = randomWord.meaning;
+                    document.getElementById('synonym').value = randomWord.synonym;
+                    document.getElementById('antonym').value = randomWord.antonym;
+                    document.getElementById('sentence').value = randomWord.sentence;
+                    document.getElementById('pronunciation').value = randomWord.pronunciation;
                 } else {
                     console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
                 }
@@ -61,8 +53,9 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
         });
 
         // Trigger click on loadFromJson button
+        var useJsonDataCheckbox = document.getElementById('useJsonData');
         if (useJsonDataCheckbox.checked) {
-            loadFromJsonButton.click();
+            document.getElementById('loadFromJson').click();
         }
     })
     .catch(error => console.error('Error fetching JSON:', error));
