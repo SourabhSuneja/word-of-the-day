@@ -111,6 +111,111 @@
       "antonym": "Misery",
       "sentence": "The couple experienced pure bliss during their tropical vacation.",
       "pronunciation": "blis"
+    },
+    {
+      "word": "Zeal",
+      "meaning": "Great enthusiasm or passion for a cause or objective.",
+      "synonym": "Eagerness",
+      "antonym": "Apathy",
+      "sentence": "Her zeal for environmental conservation led to active involvement in local initiatives.",
+      "pronunciation": "zeel"
+    },
+    {
+      "word": "Phenomenal",
+      "meaning": "Extraordinary, outstanding, or remarkable; beyond what is ordinary or usual.",
+      "synonym": "Exceptional",
+      "antonym": "Mediocre",
+      "sentence": "The concert received phenomenal reviews for its breathtaking performance.",
+      "pronunciation": "fi-nom-uh-nl"
+    },
+    {
+      "word": "Leap",
+      "meaning": "To jump or spring a long distance; a sudden or great jump.",
+      "synonym": "Bound",
+      "antonym": "Crawl",
+      "sentence": "The athlete made a spectacular leap to clear the high jump bar.",
+      "pronunciation": "leep"
+    },
+    {
+      "word": "Lonely",
+      "meaning": "Solitary, lacking companionship; feeling isolated or alone.",
+      "synonym": "Isolated",
+      "antonym": "Social",
+      "sentence": "The old house stood lonely on the hill, surrounded by silence.",
+      "pronunciation": "lohn-lee"
+    },
+    {
+      "word": "Pale",
+      "meaning": "Light in color or having a whitish appearance; lacking intensity or vividness.",
+      "synonym": "Faded",
+      "antonym": "Vivid",
+      "sentence": "The moon cast a pale light over the quiet garden.",
+      "pronunciation": "peyl"
+    },
+    {
+      "word": "Parade",
+      "meaning": "A public procession, often celebrating a special event; to march or move in a procession.",
+      "synonym": "Procession",
+      "antonym": "Disperse",
+      "sentence": "The city held a grand parade to celebrate Independence Day.",
+      "pronunciation": "puh-reyd"
+    },
+    {
+      "word": "Scholar",
+      "meaning": "A person who is highly educated or has expertise in a particular area of study.",
+      "synonym": "Academic",
+      "antonym": "Ignoramus",
+      "sentence": "The scholar's research contributions significantly impacted the field of physics.",
+      "pronunciation": "skol-er"
+    },
+    {
+      "word": "Strand",
+      "meaning": "A single thread or fiber; to leave someone isolated or stranded in a difficult situation.",
+      "synonym": "Thread",
+      "antonym": "Connect",
+      "sentence": "A strand of hair caught my attention as it glimmered in the sunlight.",
+      "pronunciation": "strand"
+    },
+    {
+      "word": "Tremble",
+      "meaning": "To shake involuntarily, typically as a result of fear, excitement, or weakness.",
+      "synonym": "Quiver",
+      "antonym": "Steady",
+      "sentence": "The small animal began to tremble in the presence of a larger predator.",
+      "pronunciation": "trem-buhl"
+    },
+    {
+      "word": "Concern",
+      "meaning": "A feeling of worry or distress; to be interested or involved in something.",
+      "synonym": "Worry",
+      "antonym": "Indifference",
+      "sentence": "The sudden change in weather became a concern for the outdoor event.",
+      "pronunciation": "kuhn-surn"
+    },
+    {
+      "word": "Evident",
+      "meaning": "Clearly seen or understood; obvious and apparent.",
+      "synonym": "Apparent",
+      "antonym": "Hidden",
+      "sentence": "The damage to the car was evident, with visible dents and scratches.",
+      "pronunciation": "ev-i-duhnt"
+    },
+    {
+      "word": "Scarce",
+      "meaning": "In short supply; not plentiful or abundant.",
+      "synonym": "Limited",
+      "antonym": "Abundant",
+      "sentence": "During the drought, water became scarce in the region.",
+      "pronunciation": "skeers"
+    },
+    {
+      "word": "Apparent",
+      "meaning": "Clearly visible or understood; easily perceived.",
+      "synonym": "Evident",
+      "antonym": "Hidden",
+      "sentence": "The cause of the problem became apparent after a thorough investigation.",
+      "pronunciation": "uh-par-uhnt"
     }
+
   ]
 }
