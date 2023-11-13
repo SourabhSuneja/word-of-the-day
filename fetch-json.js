@@ -19,28 +19,36 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
 
         // Attach event handler after all JSON files have been loaded
         document.getElementById('loadFromJson').addEventListener('click', function () {
-            // Event handler logic
+            // Check if the useJsonData checkbox is checked
+            var useJsonDataCheckbox = document.getElementById('useJsonData');
 
-            // Randomly select a JSON file source
-            var randomSource = jsonSources[Math.floor(Math.random() * jsonSources.length)];
+            if (useJsonDataCheckbox.checked) {
+                // Event handler logic when the checkbox is checked
 
-            // Use the pre-loaded JSON data from the cache
-            var jsonData = jsonDataCache[randomSource];
+                // Randomly select a JSON file source
+                var randomSource = jsonSources[Math.floor(Math.random() * jsonSources.length)];
 
-            if (jsonData) {
-                // Pick a random word
-                var randomIndex = Math.floor(Math.random() * jsonData.words.length);
-                var randomWord = jsonData.words[randomIndex];
+                // Use the pre-loaded JSON data from the cache
+                var jsonData = jsonDataCache[randomSource];
 
-                // Insert data into corresponding input fields
-                document.getElementById('word').value = randomWord.word;
-                document.getElementById('meaning').value = randomWord.meaning;
-                document.getElementById('synonym').value = randomWord.synonym;
-                document.getElementById('antonym').value = randomWord.antonym;
-                document.getElementById('sentence').value = randomWord.sentence;
-                document.getElementById('pronunciation').value = randomWord.pronunciation;
+                if (jsonData) {
+                    // Pick a random word
+                    var randomIndex = Math.floor(Math.random() * jsonData.words.length);
+                    var randomWord = jsonData.words[randomIndex];
+
+                    // Insert data into corresponding input fields
+                    document.getElementById('word').value = randomWord.word;
+                    document.getElementById('meaning').value = randomWord.meaning;
+                    document.getElementById('synonym').value = randomWord.synonym;
+                    document.getElementById('antonym').value = randomWord.antonym;
+                    document.getElementById('sentence').value = randomWord.sentence;
+                    document.getElementById('pronunciation').value = randomWord.pronunciation;
+                } else {
+                    console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
+                }
             } else {
-                console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
+                // Alert if the checkbox is not checked
+                alert('Please check the "Use pre-loaded JSON data" checkbox first.');
             }
         });
 
