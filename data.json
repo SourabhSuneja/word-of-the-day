@@ -1471,6 +1471,118 @@
       "antonym": "Gloomy",
       "sentence": "The jolly atmosphere during the holiday season lifted everyone's spirits.",
       "pronunciation": "jol-ee"
+    },
+    {
+      "word": "Junk",
+      "meaning": "Discarded or useless objects; trash or debris.",
+      "synonym": "Debris",
+      "antonym": "Valuables",
+      "sentence": "The backyard was cluttered with old junk that needed to be cleared.",
+      "pronunciation": "juhngk"
+    },
+    {
+      "word": "Keen",
+      "meaning": "Having a sharp or eager interest; intense or enthusiastic.",
+      "synonym": "Eager",
+      "antonym": "Apathetic",
+      "sentence": "She has a keen interest in astronomy and stargazing.",
+      "pronunciation": "keen"
+    },
+    {
+      "word": "Kudos",
+      "meaning": "Praise and admiration for an achievement or accomplishment.",
+      "synonym": "Acclaim",
+      "antonym": "Criticism",
+      "sentence": "The team received kudos for their outstanding performance in the competition.",
+      "pronunciation": "koo-dohz"
+    },
+    {
+      "word": "Mundane",
+      "meaning": "Lacking interest or excitement; dull and ordinary.",
+      "synonym": "Boring",
+      "antonym": "Exciting",
+      "sentence": "The routine tasks at the office were quite mundane.",
+      "pronunciation": "muhn-deyn"
+    },
+    {
+      "word": "Mediocre",
+      "meaning": "Of only average quality; not very good.",
+      "synonym": "Average",
+      "antonym": "Excellent",
+      "sentence": "The film received mediocre reviews for its predictable plot.",
+      "pronunciation": "mee-dee-oh-ker"
+    },
+    {
+      "word": "Nocturnal",
+      "meaning": "Active or occurring during the night.",
+      "synonym": "Nighttime",
+      "antonym": "Diurnal (Daytime)",
+      "sentence": "Owls are nocturnal birds, hunting for prey in the darkness.",
+      "pronunciation": "nok-turn-l"
+    },
+    {
+      "word": "Odour",
+      "meaning": "A distinctive smell, especially an unpleasant one.",
+      "synonym": "Scent",
+      "antonym": "Fragrance",
+      "sentence": "The kitchen was filled with the delightful odour of freshly baked bread.",
+      "pronunciation": "oh-der"
+    },
+    {
+      "word": "Overwhelm",
+      "meaning": "To overcome or bury beneath a huge mass; to be overpowered with a strong emotional effect.",
+      "synonym": "Bury",
+      "antonym": "Underwhelm",
+      "sentence": "The sheer number of tasks can sometimes overwhelm even the most organized individuals.",
+      "pronunciation": "oh-ver-hwelm"
+    },
+    {
+      "word": "Perplex",
+      "meaning": "To cause confusion or puzzlement.",
+      "synonym": "Baffle",
+      "antonym": "Clarify",
+      "sentence": "The complex riddle continued to perplex even the brightest minds.",
+      "pronunciation": "per-pleks"
+    },
+    {
+      "word": "Quench",
+      "meaning": "To satisfy one's thirst; to extinguish or suppress something.",
+      "synonym": "Satisfy",
+      "antonym": "Ignite",
+      "sentence": "Drinking water helped to quench their thirst after the intense workout.",
+      "pronunciation": "kwench"
+    },
+    {
+      "word": "Rampant",
+      "meaning": "Widespread and uncontrollable; flourishing or spreading unchecked.",
+      "synonym": "Unbridled",
+      "antonym": "Contained",
+      "sentence": "The disease became rampant, affecting communities across the region.",
+      "pronunciation": "ram-puhnt"
+    },
+    {
+      "word": "Rebuke",
+      "meaning": "To express sharp disapproval or criticism; reprimand.",
+      "synonym": "Reprimand",
+      "antonym": "Praise",
+      "sentence": "The teacher had to rebuke the student for disruptive behavior in class.",
+      "pronunciation": "ri-byook"
+    },
+    {
+      "word": "Remorse",
+      "meaning": "Deep regret or guilt for a wrong committed.",
+      "synonym": "Regret",
+      "antonym": "Indifference",
+      "sentence": "He felt a sense of remorse after realizing the impact of his actions.",
+      "pronunciation": "ri-mors"
+    },
+    {
+      "word": "Satire",
+      "meaning": "The use of humor, irony, or exaggeration to criticize or mock people's vices or shortcomings.",
+      "synonym": "Mockery",
+      "antonym": "Praise",
+      "sentence": "The satirical cartoon cleverly highlighted social issues through humor.",
+      "pronunciation": "sat-ahyuh"
     }
    
 
