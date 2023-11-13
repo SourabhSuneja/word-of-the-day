@@ -1351,9 +1351,128 @@
       "antonym": "Stillness",
       "sentence": "The bird's wings began to flap as it took off into the sky.",
       "pronunciation": "flap"
+    },
+    {
+      "word": "Abolish",
+      "meaning": "To formally put an end to a system, practice, or institution.",
+      "synonym": "Eliminate",
+      "antonym": "Establish",
+      "sentence": "The government decided to abolish outdated laws to promote justice.",
+      "pronunciation": "uh-bol-ish"
+    },
+    {
+      "word": "Acumen",
+      "meaning": "The ability to make good judgments and quick decisions, typically in a particular domain.",
+      "synonym": "Keen insight",
+      "antonym": "Ignorance",
+      "sentence": "Her business acumen played a crucial role in the company's success.",
+      "pronunciation": "uh-kyoo-muhn"
+    },
+    {
+      "word": "Adamant",
+      "meaning": "Refusing to be persuaded or to change one's mind.",
+      "synonym": "Unyielding",
+      "antonym": "Flexible",
+      "sentence": "Despite the challenges, she remained adamant about her decision.",
+      "pronunciation": "ad-uh-muhnt"
+    },
+    {
+      "word": "Backbite",
+      "meaning": "To speak negatively about someone when they are not present.",
+      "synonym": "Gossip",
+      "antonym": "Praise",
+      "sentence": "It's important not to backbite, but rather address concerns directly.",
+      "pronunciation": "bak-bahyt"
+    },
+    {
+      "word": "Barren",
+      "meaning": "Lacking vegetation, unproductive, or unable to produce offspring.",
+      "synonym": "Desolate",
+      "antonym": "Fertile",
+      "sentence": "The barren land struggled to support any form of life.",
+      "pronunciation": "bar-uhn"
+    },
+    {
+      "word": "Charisma",
+      "meaning": "Compelling attractiveness or charm that inspires devotion in others.",
+      "synonym": "Charm",
+      "antonym": "Aloofness",
+      "sentence": "The leader's charisma united the team and motivated them to achieve goals.",
+      "pronunciation": "kuh-riz-muh"
+    },
+    {
+      "word": "Dauntless",
+      "meaning": "Fearless and determined, not intimidated by difficulty or danger.",
+      "synonym": "Courageous",
+      "antonym": "Timid",
+      "sentence": "Her dauntless spirit led her to face challenges head-on.",
+      "pronunciation": "dawnt-lis"
+    },
+    {
+      "word": "Delicate",
+      "meaning": "Easily broken, fragile, or requiring gentle handling.",
+      "synonym": "Fragile",
+      "antonym": "Robust",
+      "sentence": "The delicate vase needed to be handled with care to avoid damage.",
+      "pronunciation": "del-i-kit"
+    },
+    {
+      "word": "Endure",
+      "meaning": "To suffer patiently; to tolerate or withstand hardships.",
+      "synonym": "Persist",
+      "antonym": "Surrender",
+      "sentence": "They had to endure the challenging conditions during their expedition.",
+      "pronunciation": "en-dyoor"
+    },
+    {
+      "word": "Gaze",
+      "meaning": "To look steadily and intently, especially in admiration, surprise, or thought.",
+      "synonym": "Stare",
+      "antonym": "Glance",
+      "sentence": "They sat by the lake and gazed at the mesmerizing sunset.",
+      "pronunciation": "geyz"
+    },
+    {
+      "word": "Gibberish",
+      "meaning": "Unintelligible or nonsensical language; speech or writing that is difficult to understand.",
+      "synonym": "Nonsense",
+      "antonym": "Coherent speech",
+      "sentence": "The toddler spoke in gibberish, creating amusement for the family.",
+      "pronunciation": "jib-er-ish"
+    },
+    {
+      "word": "Havoc",
+      "meaning": "Widespread destruction or chaos.",
+      "synonym": "Chaos",
+      "antonym": "Order",
+      "sentence": "The hurricane wreaked havoc, leaving a trail of destruction in its path.",
+      "pronunciation": "hav-uhk"
+    },
+    {
+      "word": "Idle",
+      "meaning": "Not active or in use; doing nothing.",
+      "synonym": "Inactive",
+      "antonym": "Active",
+      "sentence": "The machine remained idle until someone started using it again.",
+      "pronunciation": "ahyd-l"
+    },
+    {
+      "word": "Inevitable",
+      "meaning": "Certain to happen; unavoidable.",
+      "synonym": "Unavoidable",
+      "antonym": "Preventable",
+      "sentence": "Change is often inevitable, and adapting becomes essential.",
+      "pronunciation": "in-ev-i-tuh-buhl"
+    },
+    {
+      "word": "Jolly",
+      "meaning": "Happy, cheerful, and lively in a festive or playful way.",
+      "synonym": "Joyful",
+      "antonym": "Gloomy",
+      "sentence": "The jolly atmosphere during the holiday season lifted everyone's spirits.",
+      "pronunciation": "jol-ee"
     }
-
-    
+   
 
   ]
 }
