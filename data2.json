@@ -391,6 +391,94 @@
       "antonym": "Reward",
       "sentence": "The punishment for the crime was a year of community service.",
       "pronunciation": "puhn-ish-muhnt"
+    },
+    {
+      "word": "Tunnel",
+      "meaning": "A passageway underground or through something, typically for vehicles or trains.",
+      "synonym": "Passage",
+      "antonym": "Open space",
+      "sentence": "The train entered the tunnel, disappearing into the darkness.",
+      "pronunciation": "tuhn-l"
+    },
+    {
+      "word": "Boastful",
+      "meaning": "Excessively proud and self-satisfied; inclined to brag or show off.",
+      "synonym": "Proud",
+      "antonym": "Modest",
+      "sentence": "His boastful nature made it challenging for others to connect with him.",
+      "pronunciation": "bohst-fuhl"
+    },
+    {
+      "word": "Horrific",
+      "meaning": "Causing horror, shock, or extreme fear; extremely distressing or dreadful.",
+      "synonym": "Frightening",
+      "antonym": "Pleasant",
+      "sentence": "The accident scene was horrific, leaving a lasting impact on the witnesses.",
+      "pronunciation": "haw-rif-ik"
+    },
+    {
+      "word": "Scary",
+      "meaning": "Causing fear or alarm; frightening or causing unease.",
+      "synonym": "Frightening",
+      "antonym": "Comforting",
+      "sentence": "The horror movie was so scary that some people couldn't sleep afterward.",
+      "pronunciation": "skair-ee"
+    },
+    {
+      "word": "Fortune",
+      "meaning": "Wealth or riches; luck, fate, or destiny, especially in terms of financial success.",
+      "synonym": "Wealth",
+      "antonym": "Misfortune",
+      "sentence": "He made a fortune investing in the stock market.",
+      "pronunciation": "fawr-choon"
+    },
+    {
+      "word": "Glad",
+      "meaning": "Feeling happy or pleased about something.",
+      "synonym": "Happy",
+      "antonym": "Unhappy",
+      "sentence": "She was glad to hear the good news about her friend's recovery.",
+      "pronunciation": "glad"
+    },
+    {
+      "word": "Amused",
+      "meaning": "Entertained or finding something funny or enjoyable.",
+      "synonym": "Entertained",
+      "antonym": "Bored",
+      "sentence": "The comedian's jokes kept the audience amused throughout the show.",
+      "pronunciation": "uh-myoozd"
+    },
+    {
+      "word": "Affectionate",
+      "meaning": "Showing fondness or tender feelings towards someone; loving or warm in nature.",
+      "synonym": "Loving",
+      "antonym": "Cold",
+      "sentence": "The affectionate couple held hands as they walked through the park.",
+      "pronunciation": "uh-fek-shuh-nit"
+    },
+    {
+      "word": "Courteous",
+      "meaning": "Polite, respectful, or considerate in behavior; showing good manners.",
+      "synonym": "Polite",
+      "antonym": "Rude",
+      "sentence": "He always greeted guests with a courteous smile and a welcoming attitude.",
+      "pronunciation": "kur-tee-uhs"
+    },
+    {
+      "word": "Lively",
+      "meaning": "Full of energy, enthusiasm, or spirit; animated or vigorous.",
+      "synonym": "Vibrant",
+      "antonym": "Dull",
+      "sentence": "The lively music at the party encouraged everyone to dance.",
+      "pronunciation": "lahyv-lee"
+    },
+    {
+      "word": "Delighted",
+      "meaning": "Greatly pleased or filled with joy; happily satisfied.",
+      "synonym": "Pleased",
+      "antonym": "Displeased",
+      "sentence": "She was delighted with the surprise birthday party thrown by her friends.",
+      "pronunciation": "dih-lahy-tid"
     }
 
   ]
