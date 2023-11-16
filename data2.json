@@ -303,6 +303,94 @@
       "antonym": "Freezing",
       "sentence": "The scorching desert heat made it difficult to stay outdoors for long.",
       "pronunciation": "skawr-ching"
+    },
+    {
+      "word": "Assess",
+      "meaning": "To evaluate or determine the nature or quality of something; to estimate or judge.",
+      "synonym": "Evaluate",
+      "antonym": "Guess",
+      "sentence": "The teacher needed time to assess the students' understanding of the lesson.",
+      "pronunciation": "uh-ses"
+    },
+    {
+      "word": "Compensate",
+      "meaning": "To give something, typically money, in recognition of loss, suffering, or injury.",
+      "synonym": "Reimburse",
+      "antonym": "Deprive",
+      "sentence": "The company compensated the workers for the extra hours worked during the holiday.",
+      "pronunciation": "kom-puh n-seyt"
+    },
+    {
+      "word": "Confine",
+      "meaning": "To keep within certain limits or boundaries; to restrict or restrain.",
+      "synonym": "Restrict",
+      "antonym": "Release",
+      "sentence": "The doctor advised him to confine physical activity after the surgery.",
+      "pronunciation": "kuhn-fahyn"
+    },
+    {
+      "word": "Retain",
+      "meaning": "To keep or continue to have something; to hold in place or maintain.",
+      "synonym": "Preserve",
+      "antonym": "Release",
+      "sentence": "It's essential to retain important documents for future reference.",
+      "pronunciation": "ri-teyn"
+    },
+    {
+      "word": "Enquire",
+      "meaning": "To ask for information; to seek or request information about something.",
+      "synonym": "Inquire",
+      "antonym": "Assume",
+      "sentence": "She decided to enquire about the availability of tickets for the concert.",
+      "pronunciation": "en-kwahyuhr"
+    },
+    {
+      "word": "Investigate",
+      "meaning": "To carry out a systematic examination or inquiry; to conduct an official examination.",
+      "synonym": "Examine",
+      "antonym": "Ignore",
+      "sentence": "The detective was assigned to investigate the mysterious disappearance.",
+      "pronunciation": "in-ves-ti-geyt"
+    },
+    {
+      "word": "Postpone",
+      "meaning": "To delay or defer an event or action to a later time or date.",
+      "synonym": "Delay",
+      "antonym": "Advance",
+      "sentence": "Due to bad weather, the outdoor event had to be postponed until next week.",
+      "pronunciation": "pohst-pohn"
+    },
+    {
+      "word": "Tolerate",
+      "meaning": "To accept or endure something unpleasant or disliked; to bear or put up with.",
+      "synonym": "Endure",
+      "antonym": "Reject",
+      "sentence": "She couldn't tolerate the constant noise from the construction site.",
+      "pronunciation": "tol-uh-reyt"
+    },
+    {
+      "word": "Numerous",
+      "meaning": "A large number; many or several in quantity.",
+      "synonym": "Many",
+      "antonym": "Few",
+      "sentence": "The library had numerous books on various subjects.",
+      "pronunciation": "noo-mer-uhs"
+    },
+    {
+      "word": "Collapse",
+      "meaning": "To fall down suddenly due to lack of support or strength; to break down completely.",
+      "synonym": "Fall",
+      "antonym": "Stand",
+      "sentence": "The old building collapsed after years of neglect.",
+      "pronunciation": "kuh-laps"
+    },
+    {
+      "word": "Punishment",
+      "meaning": "A penalty inflicted for an offense or wrongdoing; an imposed consequence.",
+      "synonym": "Penalty",
+      "antonym": "Reward",
+      "sentence": "The punishment for the crime was a year of community service.",
+      "pronunciation": "puhn-ish-muhnt"
     }
 
   ]
