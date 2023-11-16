@@ -215,6 +215,94 @@
       "antonym": "Hidden",
       "sentence": "The cause of the problem became apparent after a thorough investigation.",
       "pronunciation": "uh-par-uhnt"
+    },
+    {
+      "word": "Fabulous",
+      "meaning": "Extremely pleasing or marvelous; extraordinary or incredible.",
+      "synonym": "Fantastic",
+      "antonym": "Terrible",
+      "sentence": "The fashion show displayed fabulous designs that left the audience in awe.",
+      "pronunciation": "fab-yuh-luhs"
+    },
+    {
+      "word": "Skyscraper",
+      "meaning": "A very tall building with multiple floors, typically found in urban areas.",
+      "synonym": "High-rise",
+      "antonym": "Low-rise",
+      "sentence": "The city skyline was dominated by towering skyscrapers.",
+      "pronunciation": "skahy-skrey-per"
+    },
+    {
+      "word": "Nostalgic",
+      "meaning": "A sentimental longing or affection for the past; reminiscent or wistful.",
+      "synonym": "Sentimental",
+      "antonym": "Present",
+      "sentence": "Hearing the old song made her feel nostalgic about her childhood.",
+      "pronunciation": "no-stal-jik"
+    },
+    {
+      "word": "Diehard",
+      "meaning": "Stubbornly resistant to change or determined in one's beliefs; devoted or loyal to a cause.",
+      "synonym": "Fanatic",
+      "antonym": "Flexible",
+      "sentence": "He was a diehard fan of the team, never missing a single game.",
+      "pronunciation": "dahy-hahrd"
+    },
+    {
+      "word": "Avid",
+      "meaning": "Showing enthusiasm or strong interest in something; keen or passionate.",
+      "synonym": "Enthusiastic",
+      "antonym": "Indifferent",
+      "sentence": "She was an avid reader, finishing several books each week.",
+      "pronunciation": "av-id"
+    },
+    {
+      "word": "Notion",
+      "meaning": "A belief, idea, or concept, often a vague or general understanding.",
+      "synonym": "Concept",
+      "antonym": "Certainty",
+      "sentence": "He had a notion that success required hard work and dedication.",
+      "pronunciation": "noh-shuhn"
+    },
+    {
+      "word": "Vacant",
+      "meaning": "Empty, not filled or occupied; available or unengaged.",
+      "synonym": "Empty",
+      "antonym": "Occupied",
+      "sentence": "The vacant house had been on the market for several months.",
+      "pronunciation": "vey-kuhnt"
+    },
+    {
+      "word": "Soothing",
+      "meaning": "Having a calming or comforting effect; alleviating pain or distress.",
+      "synonym": "Calming",
+      "antonym": "Agitating",
+      "sentence": "The soothing music helped her relax after a stressful day.",
+      "pronunciation": "soo-th-ing"
+    },
+    {
+      "word": "Deafening",
+      "meaning": "Extremely loud or noisy; causing temporary deafness due to its high volume.",
+      "synonym": "Ear-splitting",
+      "antonym": "Quiet",
+      "sentence": "The thunder was deafening, rattling the windows and startling everyone.",
+      "pronunciation": "def-uh-ning"
+    },
+    {
+      "word": "Parched",
+      "meaning": "Extremely dry, especially due to heat or thirst.",
+      "synonym": "Dry",
+      "antonym": "Moist",
+      "sentence": "After hours in the sun, their throats were parched and in need of water.",
+      "pronunciation": "pahrcht"
+    },
+    {
+      "word": "Scorching",
+      "meaning": "Extremely hot; burning or searing.",
+      "synonym": "Blistering",
+      "antonym": "Freezing",
+      "sentence": "The scorching desert heat made it difficult to stay outdoors for long.",
+      "pronunciation": "skawr-ching"
     }
 
   ]
