@@ -479,7 +479,94 @@
       "antonym": "Displeased",
       "sentence": "She was delighted with the surprise birthday party thrown by her friends.",
       "pronunciation": "dih-lahy-tid"
+    },
+    {
+      "word": "Diffident",
+      "meaning": "Lacking in self-confidence; shy or hesitant due to a lack of self-assurance.",
+      "synonym": "Timid",
+      "antonym": "Confident",
+      "sentence": "Her diffident nature made it challenging for her to speak in public.",
+      "pronunciation": "dif-i-duhnt"
+    },
+    {
+      "word": "Plagiarism",
+      "meaning": "The act of using someone else's work, ideas, or creations and passing them off as one's own.",
+      "synonym": "Copying",
+      "antonym": "Originality",
+      "sentence": "The writer was accused of plagiarism for using passages from another author's book without attribution.",
+      "pronunciation": "pley-juh-riz-uhm"
+    },
+    {
+      "word": "Hindrance",
+      "meaning": "An obstacle or impediment that slows down or obstructs progress.",
+      "synonym": "Obstacle",
+      "antonym": "Advantage",
+      "sentence": "The lack of funding became a hindrance to completing the construction project on time.",
+      "pronunciation": "hin-druhns"
+    },
+    {
+      "word": "Suppress",
+      "meaning": "To forcibly put an end to something; to prevent the development, action, or expression of something.",
+      "synonym": "Quell",
+      "antonym": "Encourage",
+      "sentence": "The government tried to suppress the protests by imposing a curfew.",
+      "pronunciation": "suh-pres"
+    },
+    {
+      "word": "Stringent",
+      "meaning": "Strict, precise, or precise in requirements, regulations, or standards.",
+      "synonym": "Rigorous",
+      "antonym": "Lenient",
+      "sentence": "The school had stringent rules regarding uniform compliance.",
+      "pronunciation": "strin-juhnt"
+    },
+    {
+      "word": "Churlish",
+      "meaning": "Rude, surly, or ill-mannered; lacking in civility or graciousness.",
+      "synonym": "Impolite",
+      "antonym": "Polite",
+      "sentence": "His churlish behavior towards the guests offended everyone at the party.",
+      "pronunciation": "chur-lish"
+    },
+    {
+      "word": "Renowned",
+      "meaning": "Famous, widely acclaimed, or well-known for excellence or achievement.",
+      "synonym": "Famous",
+      "antonym": "Unknown",
+      "sentence": "The renowned scientist received the Nobel Prize for her groundbreaking research.",
+      "pronunciation": "ri-nound"
+    },
+    {
+      "word": "Aversion",
+      "meaning": "A strong dislike or feeling of opposition towards something or someone.",
+      "synonym": "Dislike",
+      "antonym": "Preference",
+      "sentence": "He had an aversion to public speaking due to past negative experiences.",
+      "pronunciation": "uh-vur-zhuhn"
+    },
+    {
+      "word": "Plausible",
+      "meaning": "Seemingly reasonable or believable, often used to describe an explanation or argument.",
+      "synonym": "Believable",
+      "antonym": "Improbable",
+      "sentence": "His explanation for the missing homework seemed plausible, but it lacked evidence.",
+      "pronunciation": "plaw-zuh-buhl"
+    },
+    {
+      "word": "Prodigy",
+      "meaning": "A person, especially a young one, who demonstrates exceptional talent or ability.",
+      "synonym": "Genius",
+      "antonym": "Mediocre",
+      "sentence": "Mozart was a musical prodigy, composing music at a very young age.",
+      "pronunciation": "prod-i-jee"
+    },
+    {
+      "word": "Rigorous",
+      "meaning": "Thorough, demanding, or characterized by strict adherence to a set of standards.",
+      "synonym": "Demanding",
+      "antonym": "Lenient",
+      "sentence": "The rigorous training regimen prepared the athletes for the intense competition.",
+      "pronunciation": "rig-er-uhs"
     }
-
   ]
 }
