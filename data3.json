@@ -63,6 +63,95 @@
       "antonym": "Respectful",
       "sentence": "The forum moderator banned the troll for spreading misinformation.",
       "pronunciation": "trol"
+    },
+    {
+      "word": "Intriguing",
+      "meaning": "Fascinating, interesting, or arousing curiosity.",
+      "synonym": "Captivating",
+      "antonym": "Uninteresting",
+      "sentence": "The novel had an intriguing plot that kept readers engaged till the end.",
+      "pronunciation": "in-tree-ging"
+    },
+    {
+      "word": "Stirring",
+      "meaning": "Emotionally moving or exciting; causing strong feelings or emotions.",
+      "synonym": "Touching",
+      "antonym": "Unmoving",
+      "sentence": "The stirring speech motivated everyone to take action for change.",
+      "pronunciation": "stur-ing"
+    },
+    {
+      "word": "Thought-provoking",
+      "meaning": "Challenging or inspiring deep thoughts or contemplation.",
+      "synonym": "Intellectual",
+      "antonym": "Uninspiring",
+      "sentence": "The documentary was thought-provoking and encouraged reflection on societal issues.",
+      "pronunciation": "thawt-proh-voh-king"
+    },
+    {
+      "word": "Morbid",
+      "meaning": "Characterized by an unhealthy or unhealthy interest in disturbing subjects, especially death or disease.",
+      "synonym": "Gloomy",
+      "antonym": "Cheerful",
+      "sentence": "Her morbid fascination with crime stories concerned her friends.",
+      "pronunciation": "mawr-bid"
+    },
+    {
+      "word": "Mourn",
+      "meaning": "To feel or express sorrow or grief over a loss or someone's death.",
+      "synonym": "Grieve",
+      "antonym": "Celebrate",
+      "sentence": "The family gathered to mourn the passing of their beloved pet.",
+      "pronunciation": "mawrn"
+    },
+    {
+      "word": "Oppressive",
+      "meaning": "Causing distress or difficulty, especially due to excessive power or authority.",
+      "synonym": "Tyrannical",
+      "antonym": "Liberating",
+      "sentence": "The oppressive regime restricted freedom of speech in the country.",
+      "pronunciation": "uh-pres-iv"
+    },
+    {
+      "word": "Dejected",
+      "meaning": "Feeling sad, disheartened, or depressed.",
+      "synonym": "Downcast",
+      "antonym": "Elated",
+      "sentence": "After losing the game, the team was dejected but vowed to do better next time.",
+      "pronunciation": "dih-jek-tid"
+    },
+    {
+      "word": "Provoke",
+      "meaning": "To stimulate or incite someone to take action, often intentionally causing a reaction.",
+      "synonym": "Stir up",
+      "antonym": "Calm",
+      "sentence": "His remarks were intended to provoke a heated debate among the group.",
+      "pronunciation": "pruh-vohk"
+    },
+    {
+      "word": "Brisk",
+      "meaning": "Quick, active, or energetic; characterized by a swift pace.",
+      "synonym": "Lively",
+      "antonym": "Slow",
+      "sentence": "They took a brisk walk in the morning to invigorate themselves for the day.",
+      "pronunciation": "brisk"
+    },
+    {
+      "word": "Quick-witted",
+      "meaning": "Having a sharp intellect or ability to think and respond rapidly.",
+      "synonym": "Sharp-minded",
+      "antonym": "Slow-witted",
+      "sentence": "His quick-witted responses made him popular in the comedy club.",
+      "pronunciation": "kwik-wit-id"
+    },
+    {
+      "word": "Swift",
+      "meaning": "Moving or acting with great speed or velocity; rapid or fast.",
+      "synonym": "Speedy",
+      "antonym": "Slow",
+      "sentence": "The swift river made it difficult to cross during heavy rains.",
+      "pronunciation": "swift"
     }
+
   ]
 }
