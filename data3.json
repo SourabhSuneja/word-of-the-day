@@ -151,6 +151,94 @@
       "antonym": "Slow",
       "sentence": "The swift river made it difficult to cross during heavy rains.",
       "pronunciation": "swift"
+    },
+    {
+      "word": "Autumn",
+      "meaning": "The season between summer and winter, characterized by cooler temperatures and falling leaves.",
+      "synonym": "Fall",
+      "antonym": "Spring",
+      "sentence": "Autumn is known for its colorful foliage and harvest festivals.",
+      "pronunciation": "aw-tuhm"
+    },
+    {
+      "word": "Guest",
+      "meaning": "A person who is invited to visit or stay in someone's home, residence, or event.",
+      "synonym": "Visitor",
+      "antonym": "Host",
+      "sentence": "They welcomed the guest with warm hospitality.",
+      "pronunciation": "gest"
+    },
+    {
+      "word": "Certain",
+      "meaning": "Sure or confident without doubt; being specific or particular.",
+      "synonym": "Sure",
+      "antonym": "Uncertain",
+      "sentence": "She was certain that she locked the door before leaving.",
+      "pronunciation": "sur-tn"
+    },
+    {
+      "word": "Rejection",
+      "meaning": "The act of refusing or dismissing something, especially a proposal, idea, or request.",
+      "synonym": "Refusal",
+      "antonym": "Acceptance",
+      "sentence": "The rejection of his manuscript was disappointing.",
+      "pronunciation": "ri-jek-shuhn"
+    },
+    {
+      "word": "Dilemma",
+      "meaning": "A difficult situation or problem with two equally undesirable options.",
+      "synonym": "Quandary",
+      "antonym": "Solution",
+      "sentence": "She faced a dilemma choosing between two job offers.",
+      "pronunciation": "dih-lem-uh"
+    },
+    {
+      "word": "Suspense",
+      "meaning": "A feeling of excitement, uncertainty, or anticipation about what may happen.",
+      "synonym": "Tension",
+      "antonym": "Certainty",
+      "sentence": "The suspense in the movie kept the audience on the edge of their seats.",
+      "pronunciation": "suh-spens"
+    },
+    {
+      "word": "Indecisive",
+      "meaning": "Unable to make decisions quickly or effectively; hesitant or vacillating.",
+      "synonym": "Undecided",
+      "antonym": "Decisive",
+      "sentence": "His indecisive nature made it challenging to plan the event.",
+      "pronunciation": "in-di-sahy-siv"
+    },
+    {
+      "word": "Confidence",
+      "meaning": "A feeling of self-assurance arising from one's abilities, qualities, or trust in someone or something.",
+      "synonym": "Assurance",
+      "antonym": "Doubt",
+      "sentence": "Her confidence helped her succeed in challenging situations.",
+      "pronunciation": "kon-fi-duhns"
+    },
+    {
+      "word": "Paw",
+      "meaning": "The foot of an animal that has claws or nails; often used to refer to an animal's hand-like foot.",
+      "synonym": "Foot",
+      "antonym": "Human hand",
+      "sentence": "The cat used its paw to bat at the toy.",
+      "pronunciation": "paw"
+    },
+    {
+      "word": "Jab",
+      "meaning": "A quick, sharp punch or blow with the fist or elbow.",
+      "synonym": "Punch",
+      "antonym": "Retreat",
+      "sentence": "He delivered a jab to his opponent in the boxing match.",
+      "pronunciation": "jab"
+    },
+    {
+      "word": "Zap",
+      "meaning": "To strike or hit with sudden energy or force; to move or do something quickly.",
+      "synonym": "Strike",
+      "antonym": "Ease",
+      "sentence": "She used a remote control to zap through the channels on the TV.",
+      "pronunciation": "zap"
     }
 
   ]
