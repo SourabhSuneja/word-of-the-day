@@ -343,6 +343,102 @@
       "antonym": "Assist",
       "sentence": "The heavy traffic will impede our arrival at the airport.",
       "pronunciation": "im-peed"
+    },
+    {
+      "word": "Plum",
+      "meaning": "A fruit with juicy flesh and a smooth skin, typically red, purple, or yellow when ripe.",
+      "synonym": "Fruit",
+      "antonym": "Vegetable",
+      "sentence": "She enjoyed the sweetness of the ripe plum.",
+      "pronunciation": "pluhm"
+    },
+    {
+      "word": "Spot",
+      "meaning": "A small mark or stain, a particular place, or a brief period of an activity or event.",
+      "synonym": "Mark",
+      "antonym": "Whole",
+      "sentence": "There was a spot of paint on his shirt.",
+      "pronunciation": "spot"
+    },
+    {
+      "word": "Drip",
+      "meaning": "To fall or let fall in small drops; a small drop of liquid.",
+      "synonym": "Drop",
+      "antonym": "Dry",
+      "sentence": "The faucet continued to drip, wasting water.",
+      "pronunciation": "drip"
+    },
+    {
+      "word": "Slide",
+      "meaning": "To move smoothly along a surface; a smooth, sloping structure for children to play on.",
+      "synonym": "Glide",
+      "antonym": "Climb",
+      "sentence": "The children had fun on the slide at the park.",
+      "pronunciation": "slahyd"
+    },
+    {
+      "word": "Scribble",
+      "meaning": "To write or draw hastily or carelessly; a piece of writing or a drawing done quickly and carelessly.",
+      "synonym": "Scrawl",
+      "antonym": "Write neatly",
+      "sentence": "He scribbled a note before rushing out the door.",
+      "pronunciation": "skrib-uhl"
+    },
+    {
+      "word": "Doodle",
+      "meaning": "A simple drawing made absentmindedly or while preoccupied; to scribble absentmindedly.",
+      "synonym": "Sketch",
+      "antonym": "Concentrate",
+      "sentence": "She doodled in the margins of her notebook during the meeting.",
+      "pronunciation": "dood-l"
+    },
+    {
+      "word": "Mania",
+      "meaning": "An excessively intense enthusiasm, interest, or desire for something; a craze or frenzy.",
+      "synonym": "Frenzy",
+      "antonym": "Apathy",
+      "sentence": "The new game created a mania among teenagers.",
+      "pronunciation": "mey-nee-uh"
+    },
+    {
+      "word": "Flaw",
+      "meaning": "A mark, fault, or imperfection that impairs the value or usefulness of something.",
+      "synonym": "Defect",
+      "antonym": "Perfection",
+      "sentence": "The painting was beautiful but had a small flaw in the corner.",
+      "pronunciation": "flaw"
+    },
+    {
+      "word": "Transmit",
+      "meaning": "To send or convey something from one place, person, or thing to another.",
+      "synonym": "Send",
+      "antonym": "Receive",
+      "sentence": "Radios transmit signals over long distances.",
+      "pronunciation": "trans-mit"
+    },
+    {
+      "word": "Lean",
+      "meaning": "To incline or bend from a vertical position; to rely or be dependent on someone or something.",
+      "synonym": "Incline",
+      "antonym": "Straighten",
+      "sentence": "He decided to lean against the wall while waiting.",
+      "pronunciation": "leen"
+    },
+    {
+      "word": "Mast",
+      "meaning": "A tall upright pole on a ship that supports sails or rigging; also used in reference to structures like radio masts.",
+      "synonym": "Pole",
+      "antonym": "Flat",
+      "sentence": "The sailors climbed the mast to adjust the sails.",
+      "pronunciation": "mast"
+    },
+    {
+      "word": "Picturesque",
+      "meaning": "Visually attractive, especially in a quaint or charming way; like a picturesque painting or scene.",
+      "synonym": "Scenic",
+      "antonym": "Unattractive",
+      "sentence": "The small village was picturesque with its colorful houses and winding streets.",
+      "pronunciation": "pik-chuh-resk"
     }
 
   ]
