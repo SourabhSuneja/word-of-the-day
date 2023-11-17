@@ -239,6 +239,110 @@
       "antonym": "Ease",
       "sentence": "She used a remote control to zap through the channels on the TV.",
       "pronunciation": "zap"
+    },
+    {
+      "word": "Bake",
+      "meaning": "To cook food using dry heat, typically in an oven.",
+      "synonym": "Cook",
+      "antonym": "Freeze",
+      "sentence": "She likes to bake cookies on the weekends.",
+      "pronunciation": "beyk"
+    },
+    {
+      "word": "Tide",
+      "meaning": "The regular rise and fall of the sea caused by the gravitational pull of the moon and sun.",
+      "synonym": "Ocean motion",
+      "antonym": "Stillness",
+      "sentence": "The tide was high, and the waves crashed against the shore.",
+      "pronunciation": "tahyd"
+    },
+    {
+      "word": "Audit",
+      "meaning": "An official inspection or examination of financial accounts or records.",
+      "synonym": "Examination",
+      "antonym": "Ignore",
+      "sentence": "The company conducts an annual audit to ensure financial accuracy.",
+      "pronunciation": "aw-dit"
+    },
+    {
+      "word": "Drown",
+      "meaning": "To die through submersion in and inhalation of water or another liquid.",
+      "synonym": "Suffocate",
+      "antonym": "Float",
+      "sentence": "Swimmers should be cautious not to drown in deep water.",
+      "pronunciation": "droun"
+    },
+    {
+      "word": "Giant",
+      "meaning": "A person, animal, or thing of unusually great size; often used to refer to a mythical creature or powerful entity.",
+      "synonym": "Colossal",
+      "antonym": "Tiny",
+      "sentence": "The giant in the story lived at the top of the beanstalk.",
+      "pronunciation": "jahy-uhnt"
+    },
+    {
+      "word": "Visionary",
+      "meaning": "A person who has original and innovative ideas about the future; characterized by foresight or imagination.",
+      "synonym": "Innovator",
+      "antonym": "Shortsighted",
+      "sentence": "He was considered a visionary for his groundbreaking inventions.",
+      "pronunciation": "vizh-uh-ner-ee"
+    },
+    {
+      "word": "Avarice",
+      "meaning": "Extreme greed for wealth or material gain.",
+      "synonym": "Greed",
+      "antonym": "Generosity",
+      "sentence": "His avarice led him to pursue money at the expense of personal relationships.",
+      "pronunciation": "av-er-is"
+    },
+    {
+      "word": "Unfathomable",
+      "meaning": "Impossible to understand or comprehend; extremely deep or incomprehensible.",
+      "synonym": "Incomprehensible",
+      "antonym": "Understandable",
+      "sentence": "The depth of the ocean is unfathomable to most people.",
+      "pronunciation": "uhn-fath-uh-muh-buhl"
+    },
+    {
+      "word": "Harbinger",
+      "meaning": "A person or thing that signals the approach of another; a forerunner or indicator.",
+      "synonym": "Sign",
+      "antonym": "Result",
+      "sentence": "The sudden cold weather was a harbinger of the impending winter.",
+      "pronunciation": "hahr-bin-jer"
+    },
+    {
+      "word": "Recommend",
+      "meaning": "To suggest or endorse something as being desirable or worthy; to advise or suggest as the best option.",
+      "synonym": "Suggest",
+      "antonym": "Discourage",
+      "sentence": "I would recommend this book for anyone interested in history.",
+      "pronunciation": "rek-uh-men"
+    },
+    {
+      "word": "Contagious",
+      "meaning": "Capable of being transmitted or spread from one person, organism, or thing to another by direct or indirect contact.",
+      "synonym": "Infectious",
+      "antonym": "Harmless",
+      "sentence": "The flu is highly contagious, so it's important to take precautions.",
+      "pronunciation": "kuhn-tey-juhs"
+    },
+    {
+      "word": "Grasp",
+      "meaning": "To hold onto something firmly; to understand or comprehend something.",
+      "synonym": "Grip",
+      "antonym": "Release",
+      "sentence": "He couldn't grasp the complexity of the math problem.",
+      "pronunciation": "grasp"
+    },
+    {
+      "word": "Impede",
+      "meaning": "To delay, obstruct, or hinder the progress or movement of something or someone.",
+      "synonym": "Hinder",
+      "antonym": "Assist",
+      "sentence": "The heavy traffic will impede our arrival at the airport.",
+      "pronunciation": "im-peed"
     }
 
   ]
