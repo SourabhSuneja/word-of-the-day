@@ -1,0 +1,68 @@
+{
+  "words": [
+    {
+      "word": "Enthrall",
+      "meaning": "To captivate or charm someone thoroughly; to hold someone's attention completely.",
+      "synonym": "Captivate",
+      "antonym": "Bore",
+      "sentence": "The magician's performance managed to enthrall the entire audience.",
+      "pronunciation": "en-thrawl"
+    },
+    {
+      "word": "Egress",
+      "meaning": "An exit or the action of leaving a place; the act of going out or departing.",
+      "synonym": "Exit",
+      "antonym": "Entrance",
+      "sentence": "The emergency egress in the building was clearly marked for safety purposes.",
+      "pronunciation": "ee-gres"
+    },
+    {
+      "word": "Spellbound",
+      "meaning": "Completely fascinated or enchanted by something; held as if under a spell.",
+      "synonym": "Enchanted",
+      "antonym": "Bored",
+      "sentence": "The children were spellbound by the storytelling at the library.",
+      "pronunciation": "spel-bound"
+    },
+    {
+      "word": "Stroll",
+      "meaning": "To walk in a leisurely or relaxed manner, typically for pleasure or exercise.",
+      "synonym": "Walk",
+      "antonym": "Rush",
+      "sentence": "They decided to stroll through the park on a sunny afternoon.",
+      "pronunciation": "strohl"
+    },
+    {
+      "word": "Stumble",
+      "meaning": "To trip or miss a step while walking or running, often nearly falling.",
+      "synonym": "Trip",
+      "antonym": "Stride",
+      "sentence": "She stumbled on the uneven pavement and almost fell.",
+      "pronunciation": "stuhm-buhl"
+    },
+    {
+      "word": "Limp",
+      "meaning": "To walk with difficulty, typically due to injury or weakness; lacking strength or firmness.",
+      "synonym": "Hobble",
+      "antonym": "Stride",
+      "sentence": "He limped after spraining his ankle during the soccer game.",
+      "pronunciation": "limp"
+    },
+    {
+      "word": "Staggering",
+      "meaning": "Astounding, astonishing, or overwhelming in magnitude or shock.",
+      "synonym": "Astounding",
+      "antonym": "Underwhelming",
+      "sentence": "The staggering number of applicants for the job position surprised the hiring team.",
+      "pronunciation": "stag-er-ing"
+    },
+    {
+      "word": "Troll",
+      "meaning": "To post inflammatory or irrelevant content online to provoke others; a mythical creature or a person who does so.",
+      "synonym": "Bait",
+      "antonym": "Respectful",
+      "sentence": "The forum moderator banned the troll for spreading misinformation.",
+      "pronunciation": "trol"
+    }
+  ]
+}
