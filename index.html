@@ -424,6 +424,18 @@ document.getElementById("sa").innerText = antonymValue;
 
     document.getElementById("final").style.display = "block";
 
+// Get the checkbox and date element
+const dateCheckbox = document.getElementById("checkbox");
+const dateElementPara = document.getElementById("sdate");
+
+ // Check if the checkbox is checked
+  if (dateCheckbox.checked) {
+    // Set today's date in the specified format
+    dateElementPara.innerText = '(' + new Date().toLocaleDateString('en-GB', { day: '2-digit', month: 'short', year: 'numeric' }) +')';
+  } else {
+    // If the checkbox is unchecked, clear the date
+    dateElementPara.innerText = "";
+  }
 
 setRandomImage();
 
