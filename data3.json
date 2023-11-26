@@ -439,6 +439,78 @@
       "antonym": "Unattractive",
       "sentence": "The small village was picturesque with its colorful houses and winding streets.",
       "pronunciation": "pik-chuh-resk"
+    },
+    {
+      "word": "Resistance",
+      "meaning": "The refusal to accept or comply with something; the ability to withstand or recover from something.",
+      "synonym": "Opposition",
+      "antonym": "Compliance",
+      "sentence": "The resistance to change hindered progress in the organization.",
+      "pronunciation": "ri-zis-tuhns"
+    },
+    {
+      "word": "Notable",
+      "meaning": "Worthy of attention or notice; remarkable or significant.",
+      "synonym": "Remarkable",
+      "antonym": "Insignificant",
+      "sentence": "The artist's notable works were displayed in the museum.",
+      "pronunciation": "noh-tuh-buhl"
+    },
+    {
+      "word": "Vandalise",
+      "meaning": "To deliberately destroy or damage public or private property.",
+      "synonym": "Deface",
+      "antonym": "Preserve",
+      "sentence": "The vandals vandalized the walls with graffiti.",
+      "pronunciation": "van-dl-ahyz"
+    },
+    {
+      "word": "Peril",
+      "meaning": "Serious and immediate danger or risk.",
+      "synonym": "Risk",
+      "antonym": "Safety",
+      "sentence": "The storm put the sailors in peril on the open sea.",
+      "pronunciation": "per-uhl"
+    },
+    {
+      "word": "Tamper",
+      "meaning": "To interfere with something in a way that causes damage or changes its original state without permission.",
+      "synonym": "Meddle",
+      "antonym": "Leave unchanged",
+      "sentence": "It's illegal to tamper with evidence in a crime scene.",
+      "pronunciation": "tam-per"
+    },
+    {
+      "word": "Jostle",
+      "meaning": "To push, elbow, or bump against someone in a crowd; to compete for space or attention.",
+      "synonym": "Shove",
+      "antonym": "Retreat",
+      "sentence": "Passengers jostled each other to get on the crowded train.",
+      "pronunciation": "jos-uhl"
+    },
+    {
+      "word": "Virulent",
+      "meaning": "Extremely severe or harmful in its effects; bitterly hostile or antagonistic.",
+      "synonym": "Venomous",
+      "antonym": "Benign",
+      "sentence": "The virus became more virulent, causing widespread illness.",
+      "pronunciation": "vir-yuh-luhnt"
+    },
+    {
+      "word": "Tangled",
+      "meaning": "Twisted together in a confused mass; complicated or involved in a confusing way.",
+      "synonym": "Entangled",
+      "antonym": "Untangled",
+      "sentence": "The wires were tangled and difficult to sort out.",
+      "pronunciation": "tang-guhld"
+    },
+    {
+      "word": "Scanty",
+      "meaning": "Small or insufficient in quantity or amount; barely sufficient.",
+      "synonym": "Sparse",
+      "antonym": "Abundant",
+      "sentence": "Some parts of Rajasthan are extremely dry as they receive scanty rainfall.",
+      "pronunciation": "skan-tee"
     }
 
   ]
