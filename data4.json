@@ -287,6 +287,54 @@
       "antonym": "Upright",
       "sentence": "The flowers began to droop after not being watered for days.",
       "pronunciation": "droop"
+    },
+    {
+      "word": "Troop",
+      "meaning": "A group of soldiers or armed forces; a group of people, animals, or things.",
+      "synonym": "Crew",
+      "antonym": "Individual",
+      "sentence": "The troop marched in formation during the parade.",
+      "pronunciation": "troop"
+    },
+    {
+      "word": "Pungent",
+      "meaning": "Having a strong, sharp, or penetrating smell or taste.",
+      "synonym": "Strong-smelling",
+      "antonym": "Mild",
+      "sentence": "The pungent aroma of spices filled the kitchen.",
+      "pronunciation": "puhn-juhnt"
+    },
+    {
+      "word": "Beckon",
+      "meaning": "To make a gesture with the hand, arm, or head to encourage someone to come nearer or follow.",
+      "synonym": "Signal",
+      "antonym": "Repel",
+      "sentence": "She beckoned to her friend to join her at the table.",
+      "pronunciation": "bek-uhn"
+    },
+    {
+      "word": "Afloat",
+      "meaning": "Floating or staying on the surface of a liquid; financially solvent or surviving.",
+      "synonym": "Floating",
+      "antonym": "Sinking",
+      "sentence": "The boat remained afloat despite the stormy weather.",
+      "pronunciation": "uh-floht"
+    },
+    {
+      "word": "Sideways",
+      "meaning": "To or toward one side; in a lateral direction or movement.",
+      "synonym": "Laterally",
+      "antonym": "Straight",
+      "sentence": "She glanced sideways at her friend during the presentation.",
+      "pronunciation": "sahyd-weyz"
+    },
+    {
+      "word": "Unification",
+      "meaning": "The process of uniting or making things one; the act of bringing separate parts together into a single whole.",
+      "synonym": "Integration",
+      "antonym": "Division",
+      "sentence": "The country aimed for the unification of its different regions.",
+      "pronunciation": "yoo-nuh-fi-key-shuhn"
     }
 
   ]
