@@ -175,6 +175,63 @@
       "antonym": "Warm",
       "sentence": "The road became icy after the freezing rain.",
       "pronunciation": "ahy-see"
+    },
+    {
+      "word": "Cart",
+      "meaning": "A vehicle with wheels, typically used for transporting goods; a shallow open container.",
+      "synonym": "Trolley",
+      "antonym": "Unload",
+      "sentence": "The cart was filled with fresh fruits and vegetables.",
+      "pronunciation": "kahrt"
+    },
+    {
+      "word": "Hover",
+      "meaning": "To remain suspended in the air, typically by means of rapid, unsteady movements.",
+      "synonym": "Float",
+      "antonym": "Land",
+      "sentence": "The helicopter could hover in one spot for a long time.",
+      "pronunciation": "huhv-er"
+    },
+    {
+      "word": "Navigation",
+      "meaning": "The process or activity of accurately finding one's way to a destination or through an unfamiliar area.",
+      "synonym": "Guidance",
+      "antonym": "Misdirection",
+      "sentence": "Modern cars have GPS systems for navigation.",
+      "pronunciation": "nav-i-gey-shuhn"
+    },
+    {
+      "word": "Apathetic",
+      "meaning": "Showing or feeling little or no emotion; indifferent or unresponsive.",
+      "synonym": "Indifferent",
+      "antonym": "Passionate",
+      "sentence": "He seemed apathetic towards the outcome of the game.",
+      "pronunciation": "ap-uh-thet-ik"
+    },
+    {
+      "word": "Quadruple",
+      "meaning": "To multiply something by four; consisting of or involving four parts or elements.",
+      "synonym": "Multiply by four",
+      "antonym": "Single",
+      "sentence": "The company aimed to quadruple its profits by the end of the year.",
+      "pronunciation": "kwod-roo-puhl"
+    },
+    {
+      "word": "Decode",
+      "meaning": "To convert a coded message into intelligible language; to analyze or understand the meaning of something.",
+      "synonym": "Decipher",
+      "antonym": "Encode",
+      "sentence": "She tried to decode the secret message hidden in the letter.",
+      "pronunciation": "dee-kohd"
+    },
+    {
+      "word": "Pearl",
+      "meaning": "A hard, lustrous spherical object produced within the shell of a pearl oyster; a precious or valuable thing.",
+      "synonym": "Gem",
+      "antonym": "Ordinary",
+      "sentence": "She wore a necklace adorned with a beautiful pearl.",
+      "pronunciation": "purl"
     }
+
   ]
 }
