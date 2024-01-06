@@ -119,6 +119,62 @@
       "antonym": "Unimportant",
       "sentence": "Safety is our top priority when conducting experiments.",
       "pronunciation": "prahy-awr-i-tee"
+    },
+    {
+      "word": "Sponsor",
+      "meaning": "A person or organization that supports or finances a project, activity, or person.",
+      "synonym": "Supporter",
+      "antonym": "Opponent",
+      "sentence": "The company agreed to sponsor the local charity event.",
+      "pronunciation": "spon-ser"
+    },
+    {
+      "word": "Converge",
+      "meaning": "To come together from different directions and meet at a common point; to tend toward one point.",
+      "synonym": "Merge",
+      "antonym": "Diverge",
+      "sentence": "The two roads converge at the town center.",
+      "pronunciation": "kuhn-vurj"
+    },
+    {
+      "word": "Divulge",
+      "meaning": "To disclose or reveal something secret or private.",
+      "synonym": "Reveal",
+      "antonym": "Conceal",
+      "sentence": "He refused to divulge the source of the information.",
+      "pronunciation": "dih-vuhlj"
+    },
+    {
+      "word": "Alluring",
+      "meaning": "Highly attractive or tempting; capable of enticing someone.",
+      "synonym": "Appealing",
+      "antonym": "Repellent",
+      "sentence": "The advertisement featured an alluring fragrance.",
+      "pronunciation": "uh-loo-ring"
+    },
+    {
+      "word": "Redtapism",
+      "meaning": "Excessive bureaucratic rules, procedures, and formalities that hinder efficiency.",
+      "synonym": "Bureaucracy",
+      "antonym": "Efficiency",
+      "sentence": "The company's growth was hampered by red tape and redtapism.",
+      "pronunciation": "red-teyp-iz-uhm"
+    },
+    {
+      "word": "Recede",
+      "meaning": "To move back or retreat; to gradually diminish or decrease.",
+      "synonym": "Retreat",
+      "antonym": "Advance",
+      "sentence": "The floodwaters began to recede after days of heavy rain.",
+      "pronunciation": "ri-seed"
+    },
+    {
+      "word": "Icy",
+      "meaning": "Covered in or consisting of ice; extremely cold or unfriendly in manner.",
+      "synonym": "Frigid",
+      "antonym": "Warm",
+      "sentence": "The road became icy after the freezing rain.",
+      "pronunciation": "ahy-see"
     }
   ]
 }
