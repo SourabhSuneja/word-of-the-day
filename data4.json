@@ -1,0 +1,76 @@
+{
+  "words": [
+    {
+      "word": "Feast",
+      "meaning": "A large, elaborate meal, usually prepared for a special occasion or celebration.",
+      "synonym": "Banquet",
+      "antonym": "Famine",
+      "sentence": "The family gathered for a feast during the holiday.",
+      "pronunciation": "feest"
+    },
+    {
+      "word": "Tortuous",
+      "meaning": "Twisting, complex, or full of twists and turns; excessively lengthy or complex.",
+      "synonym": "Winding",
+      "antonym": "Straightforward",
+      "sentence": "The hike followed a tortuous path through the mountains.",
+      "pronunciation": "tawr-choo-uhs"
+    },
+    {
+      "word": "Prominent",
+      "meaning": "Standing out; easily noticeable; important or well-known.",
+      "synonym": "Eminent",
+      "antonym": "Inconspicuous",
+      "sentence": "The prominent building in the city center is a landmark.",
+      "pronunciation": "prom-uh-nuhnt"
+    },
+    {
+      "word": "Melodious",
+      "meaning": "Having a pleasant tune or melody; musical and tuneful.",
+      "synonym": "Harmonious",
+      "antonym": "Discordant",
+      "sentence": "She had a melodious voice that captivated the audience.",
+      "pronunciation": "muh-loh-dee-uhs"
+    },
+    {
+      "word": "Boom",
+      "meaning": "A loud, deep, resonant sound; a rapid increase or growth.",
+      "synonym": "Blast",
+      "antonym": "Silence",
+      "sentence": "The thunder made a loud boom during the storm.",
+      "pronunciation": "boom"
+    },
+    {
+      "word": "Forged",
+      "meaning": "Created or produced fraudulently or illegally; to create or produce something falsely.",
+      "synonym": "Counterfeit",
+      "antonym": "Authentic",
+      "sentence": "He was caught with forged documents.",
+      "pronunciation": "fawrjd"
+    },
+    {
+      "word": "Illegible",
+      "meaning": "Not clear enough to be read or deciphered; difficult or impossible to read.",
+      "synonym": "Unreadable",
+      "antonym": "Legible",
+      "sentence": "His handwriting was so messy that it became illegible.",
+      "pronunciation": "ih-lej-uh-buhl"
+    },
+    {
+      "word": "Pensive",
+      "meaning": "Engaged in deep or serious thought; thoughtful or reflective.",
+      "synonym": "Thoughtful",
+      "antonym": "Carefree",
+      "sentence": "She sat by the window, looking pensive and lost in thought.",
+      "pronunciation": "pen-siv"
+    },
+    {
+      "word": "Penance",
+      "meaning": "Voluntary self-punishment inflicted as an outward expression of repentance for having done wrong.",
+      "synonym": "Atonement",
+      "antonym": "Reward",
+      "sentence": "He performed acts of penance to seek forgiveness.",
+      "pronunciation": "pen-uhns"
+    }
+  ]
+}
