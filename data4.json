@@ -71,6 +71,54 @@
       "antonym": "Reward",
       "sentence": "He performed acts of penance to seek forgiveness.",
       "pronunciation": "pen-uhns"
+    },
+    {
+      "word": "Attire",
+      "meaning": "Clothing or apparel; the clothes a person wears.",
+      "synonym": "Garments",
+      "antonym": "Nudity",
+      "sentence": "The dress code required formal attire for the event.",
+      "pronunciation": "uh-tahyuh r"
+    },
+    {
+      "word": "Sober",
+      "meaning": "Not intoxicated or drunk; serious, sensible, and solemn.",
+      "synonym": "Clear-headed",
+      "antonym": "Intoxicated",
+      "sentence": "He stayed sober throughout the party and drove everyone home safely.",
+      "pronunciation": "soh-ber"
+    },
+    {
+      "word": "Tangent",
+      "meaning": "A completely different line of thought or action; diverging from the main subject.",
+      "synonym": "Digression",
+      "antonym": "Relevant",
+      "sentence": "He went off on a tangent while discussing the main topic.",
+      "pronunciation": "tan-juhnt"
+    },
+    {
+      "word": "Confiscate",
+      "meaning": "To take or seize something with authority, often as a penalty or punishment.",
+      "synonym": "Seize",
+      "antonym": "Return",
+      "sentence": "The authorities confiscated the illegal goods at the border.",
+      "pronunciation": "kon-fis-keyt"
+    },
+    {
+      "word": "Void",
+      "meaning": "Completely empty; not valid or legally binding; without legal force.",
+      "synonym": "Empty",
+      "antonym": "Valid",
+      "sentence": "The contract became void after both parties agreed to cancel it.",
+      "pronunciation": "void"
+    },
+    {
+      "word": "Priority",
+      "meaning": "Something given special attention as more important than others; the condition of being regarded or treated as more important.",
+      "synonym": "Precedence",
+      "antonym": "Unimportant",
+      "sentence": "Safety is our top priority when conducting experiments.",
+      "pronunciation": "prahy-awr-i-tee"
     }
   ]
 }
