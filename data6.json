@@ -479,7 +479,86 @@
       "antonym": "Customer",
       "sentence": "The cobbler repaired my favorite pair of boots.",
       "pronunciation": "kob-ler"
+    },
+    {
+      "word": "Commensurate",
+      "meaning": "Corresponding in size or degree; in proportion; equal in measure or extent.",
+      "synonym": "Proportionate",
+      "antonym": "Disproportionate",
+      "sentence": "His salary was commensurate with his level of experience.",
+      "pronunciation": "kuh-men-ser-it"
+    },
+    {
+      "word": "Powerless",
+      "meaning": "Without power, strength, or influence; lacking the ability, capacity, or authority to act.",
+      "synonym": "Weak",
+      "antonym": "Empowered",
+      "sentence": "Feeling powerless to change the situation, she became despondent.",
+      "pronunciation": "pou-er-lis"
+    },
+    {
+      "word": "Dutiful",
+      "meaning": "Conscientiously or obediently fulfilling one's duty; characterized by or resulting from a sense of duty.",
+      "synonym": "Obedient",
+      "antonym": "Negligent",
+      "sentence": "She was a dutiful daughter, always helping her elderly parents.",
+      "pronunciation": "doo-tuh-fuhl"
+    },
+    {
+      "word": "Contravene",
+      "meaning": "To violate or act against (a law, rule, principle, or practice); to fail to comply with a regulation or law.",
+      "synonym": "Violate",
+      "antonym": "Comply",
+      "sentence": "The company's actions contravene environmental regulations.",
+      "pronunciation": "kon-truh-veen"
+    },
+    {
+      "word": "Debunk",
+      "meaning": "To expose the falseness or hollowness of (a myth, idea, or belief); to reduce the inflated reputation of (someone), especially by ridicule.",
+      "synonym": "Expose",
+      "antonym": "Validate",
+      "sentence": "The scientist sought to debunk the pseudoscience theories circulating online.",
+      "pronunciation": "dee-buhngk"
+    },
+    {
+      "word": "Disparate",
+      "meaning": "Essentially different in kind; not allowing comparison; essentially different; unrelated.",
+      "synonym": "Distinct",
+      "antonym": "Similar",
+      "sentence": "The two cultures had disparate views on family structure.",
+      "pronunciation": "dis-puh-rit"
+    },
+    {
+      "word": "Equivocal",
+      "meaning": "Open to more than one interpretation; ambiguous; uncertain or questionable in nature.",
+      "synonym": "Ambiguous",
+      "antonym": "Clear",
+      "sentence": "His equivocal response did little to clarify the situation.",
+      "pronunciation": "ih-kwiv-uh-kuhl"
+    },
+    {
+      "word": "Landlord",
+      "meaning": "A person who owns and leases property to others; a person or organization that owns and leases out buildings or land.",
+      "synonym": "Property owner",
+      "antonym": "Tenant",
+      "sentence": "The landlord raised the rent on the apartment.",
+      "pronunciation": "land-lawrd"
+    },
+    {
+      "word": "Tenant",
+      "meaning": "A person who occupies land or property rented from a landlord; a person who holds the right to live in a property.",
+      "synonym": "Renter",
+      "antonym": "Landlord",
+      "sentence": "The tenant complained about the leaky faucet to the landlord.",
+      "pronunciation": "ten-uhnt"
+    },
+    {
+      "word": "Revolutionary",
+      "meaning": "Involving or causing a complete or dramatic change; relating to or characteristic of a revolution.",
+      "synonym": "Innovative",
+      "antonym": "Conservative",
+      "sentence": "The invention of the smartphone was revolutionary, changing how people communicate.",
+      "pronunciation": "rev-uh-loo-shuh-ner-ee"
     }
-
   ]
 }
