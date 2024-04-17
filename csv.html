@@ -16,11 +16,16 @@ function fetchDataAndConvertToCSV(url) {
             if (xhr.readyState === 4) {
                 if (xhr.status === 200) {
                     var data = JSON.parse(xhr.responseText);
-                    var csvContent = "Word, Meaning, Synonym, Antonym, Sentence, Pronunciation\n";
+                    var csvContent = '"Word","Meaning","Synonym","Antonym","Sentence","Pronunciation"\n';
                     data.words.forEach(word => {
-                        // Enclose pronunciation value in double quotes
-                        var pronunciation = `"${word.pronunciation}"`;
-                        csvContent += `${word.word}, ${word.meaning}, ${word.synonym}, ${word.antonym}, ${word.sentence}, ${pronunciation}\n`;
+                        // Enclose all column values in double quotes
+                        var wordValue = `"${word.word}"`;
+                        var meaningValue = `"${word.meaning}"`;
+                        var synonymValue = `"${word.synonym}"`;
+                        var antonymValue = `"${word.antonym}"`;
+                        var sentenceValue = `"${word.sentence}"`;
+                        var pronunciationValue = `"${word.pronunciation}"`;
+                        csvContent += `${wordValue},${meaningValue},${synonymValue},${antonymValue},${sentenceValue},${pronunciationValue}\n`;
                     });
                     resolve(csvContent);
                 } else {
