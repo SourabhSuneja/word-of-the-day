@@ -399,6 +399,86 @@
       "antonym": "Evidence",
       "sentence": "The decision was based on hearsay rather than concrete evidence.",
       "pronunciation": "heer-sey"
+    },
+    {
+      "word": "Abject",
+      "meaning": "Experienced or present to the maximum degree; utterly hopeless, miserable, humiliating, or wretched; lacking pride or dignity; sunk to a low condition; degraded.",
+      "synonym": "Miserable",
+      "antonym": "Triumphant",
+      "sentence": "He lived in abject poverty, unable to afford even basic necessities.",
+      "pronunciation": "ab-jekt"
+    },
+    {
+      "word": "Alias",
+      "meaning": "An assumed name; a false name used to conceal one's identity; an alternative name that a person adopts or is known by.",
+      "synonym": "Pseudonym",
+      "antonym": "Real name",
+      "sentence": "The fugitive was known by his alias, which he used to evade authorities.",
+      "pronunciation": "ey-lee-uhs"
+    },
+    {
+      "word": "Eclectic",
+      "meaning": "Deriving ideas, style, or taste from a broad and diverse range of sources; selecting or choosing from various sources.",
+      "synonym": "Diverse",
+      "antonym": "Homogeneous",
+      "sentence": "Her eclectic taste in music ranged from classical to punk rock.",
+      "pronunciation": "ih-klek-tik"
+    },
+    {
+      "word": "Advocate",
+      "meaning": "A person who publicly supports or recommends a particular cause or policy; a person who pleads for or in behalf of another; a person who speaks or writes in support or defense of a person, cause, etc.",
+      "synonym": "Supporter",
+      "antonym": "Opponent",
+      "sentence": "She was a passionate advocate for animal rights.",
+      "pronunciation": "ad-vuh-kit"
+    },
+    {
+      "word": "Affluent",
+      "meaning": "Having a great deal of money; wealthy; abundant or plentiful.",
+      "synonym": "Wealthy",
+      "antonym": "Poor",
+      "sentence": "The neighborhood is known for its affluent residents and luxurious homes.",
+      "pronunciation": "af-loo-uhnt"
+    },
+    {
+      "word": "Ascetic",
+      "meaning": "Characterized by or suggesting the practice of severe self-discipline and abstention from all forms of indulgence, typically for religious reasons; a person who practices severe self-discipline and abstention.",
+      "synonym": "Austere",
+      "antonym": "Indulgent",
+      "sentence": "The ascetic monk lived a simple life devoted to prayer and meditation.",
+      "pronunciation": "uh-set-ik"
+    },
+    {
+      "word": "Shatter",
+      "meaning": "To break or smash into pieces violently; to damage or destroy something, especially a belief or illusion.",
+      "synonym": "Break",
+      "antonym": "Mend",
+      "sentence": "The glass shattered when it hit the floor.",
+      "pronunciation": "shat-er"
+    },
+    {
+      "word": "Camaraderie",
+      "meaning": "Mutual trust and friendship among people who spend a lot of time together; a feeling of good friendship among the people in a group.",
+      "synonym": "Fellowship",
+      "antonym": "Estrangement",
+      "sentence": "The team's camaraderie helped them achieve success.",
+      "pronunciation": "kah-muh-rah-duh-ree"
+    },
+    {
+      "word": "Cleave",
+      "meaning": "To split or sever something, especially along a natural line or grain; to adhere firmly and closely or loyally and unwaveringly.",
+      "synonym": "Split",
+      "antonym": "Join",
+      "sentence": "The lumberjack used an axe to cleave the log in two.",
+      "pronunciation": "kleev"
+    },
+    {
+      "word": "Cobbler",
+      "meaning": "A person who mends shoes as a job; a deep-dish fruit pie with a rich biscuit crust, usually only on top.",
+      "synonym": "Shoemaker",
+      "antonym": "Customer",
+      "sentence": "The cobbler repaired my favorite pair of boots.",
+      "pronunciation": "kob-ler"
     }
 
   ]
