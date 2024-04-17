@@ -16,6 +16,7 @@ function fetchDataAndConvertToCSV(url) {
             if (xhr.readyState === 4) {
                 if (xhr.status === 200) {
                     var data = JSON.parse(xhr.responseText);
+                    data.words.sort((a, b) => a.word.localeCompare(b.word)); // Sort by word alphabetically
                     var csvContent = '"Word","Meaning","Synonym","Antonym","Sentence","Pronunciation"\n';
                     data.words.forEach(word => {
                         // Enclose all column values in double quotes
