@@ -45,18 +45,17 @@ window.onload = function() {
     var csvContent = '"Word","Meaning","Synonym","Antonym","Sentence","Pronunciation"\n'; // Column headers
     Promise.all(JSONSources.map(fetchDataAndConvertToCSV))
         .then(dataArrays => {
-            dataArrays.forEach(words => {
-                words.sort((a, b) => a.word.localeCompare(b.word)); // Sort by word alphabetically
-                words.forEach(word => {
-                    // Enclose all column values in double quotes
-                    var wordValue = `"${word.word}"`;
-                    var meaningValue = `"${word.meaning}"`;
-                    var synonymValue = `"${word.synonym}"`;
-                    var antonymValue = `"${word.antonym}"`;
-                    var sentenceValue = `"${word.sentence}"`;
-                    var pronunciationValue = `"${word.pronunciation}"`;
-                    csvContent += `${wordValue},${meaningValue},${synonymValue},${antonymValue},${sentenceValue},${pronunciationValue}\n`;
-                });
+            var combinedWords = dataArrays.reduce((acc, curr) => acc.concat(curr), []); // Combine words from all JSON files
+            combinedWords.sort((a, b) => a.word.localeCompare(b.word)); // Sort combined words alphabetically
+            combinedWords.forEach(word => {
+                // Enclose all column values in double quotes
+                var wordValue = `"${word.word}"`;
+                var meaningValue = `"${word.meaning}"`;
+                var synonymValue = `"${word.synonym}"`;
+                var antonymValue = `"${word.antonym}"`;
+                var sentenceValue = `"${word.sentence}"`;
+                var pronunciationValue = `"${word.pronunciation}"`;
+                csvContent += `${wordValue},${meaningValue},${synonymValue},${antonymValue},${sentenceValue},${pronunciationValue}\n`;
             });
             downloadCSV(csvContent, 'combined_data.csv');
         })
