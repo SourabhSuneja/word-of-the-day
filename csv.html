@@ -17,7 +17,7 @@ function fetchDataAndConvertToCSV(url) {
             if (xhr.readyState === 4) {
                 if (xhr.status === 200) {
                     var data = JSON.parse(xhr.responseText);
-                    resolve(data.words);
+                    resolve(data);
                 } else {
                     reject(new Error('Failed to fetch data from ' + url));
                 }
@@ -50,7 +50,7 @@ window.onload = function() {
     var csvContent = '"Word","Meaning","Synonym","Antonym","Sentence","Pronunciation"\n'; // Column headers
     Promise.all(JSONSources.map(fetchDataAndConvertToCSV))
         .then(dataArrays => {
-            var combinedWords = dataArrays.reduce((acc, curr) => acc.concat(curr), []); // Combine words from all JSON files
+            var combinedWords = dataArrays.reduce((acc, curr) => acc.concat(curr.words), []); // Combine words from all JSON files
             combinedWords.sort((a, b) => a.word.localeCompare(b.word)); // Sort combined words alphabetically
             combinedWords.forEach(word => {
                 // Enclose all column values in double quotes
