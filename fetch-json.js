@@ -8,7 +8,7 @@ function fetchAndCacheJsonData(source) {
         .then(response => response.json())
         .then(jsonData => {
             jsonDataCache[source] = jsonData;
-alert(jsonDataCache[source]);
+alert(jsonDataCache[source].words);
         })
         .catch(error => console.error(`Error fetching JSON from ${source}:`, error));
 }
