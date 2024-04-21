@@ -126,3 +126,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }, 1000); // Check every second
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    setInterval(function() {
+        var loadButton = document.getElementById('loadFromJson');
+        loadButton.click();
+    }, getRandomInterval());
+});
+
+function getRandomInterval() {
+    return Math.floor(Math.random() * (3000 - 1000) + 1000); // Random interval between 1000ms and 3000ms
+}
