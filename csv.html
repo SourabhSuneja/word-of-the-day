@@ -6,6 +6,7 @@
 <title>Download All Words (in CSV)</title>
 </head>
 <body>
+<div id="wordCounts"></div>
 <script>
 var JSONSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json'];
 
@@ -41,6 +42,10 @@ function downloadCSV(csvContent, filename) {
     }
 }
 
+function calculateWordCount(data) {
+    return data.words.length;
+}
+
 window.onload = function() {
     var csvContent = '"Word","Meaning","Synonym","Antonym","Sentence","Pronunciation"\n'; // Column headers
     Promise.all(JSONSources.map(fetchDataAndConvertToCSV))
@@ -58,6 +63,15 @@ window.onload = function() {
                 csvContent += `${wordValue},${meaningValue},${synonymValue},${antonymValue},${sentenceValue},${pronunciationValue}\n`;
             });
             downloadCSV(csvContent, 'word_data.csv');
+
+            // Display word counts in HTML table
+            var wordCountsDiv = document.getElementById('wordCounts');
+            var tableHTML = '<table><thead><tr><th>JSON File</th><th>Word Count</th></tr></thead><tbody>';
+            dataArrays.forEach((data, index) => {
+                tableHTML += `<tr><td>${JSONSources[index]}</td><td>${calculateWordCount(data)}</td></tr>`;
+            });
+            tableHTML += '</tbody></table>';
+            wordCountsDiv.innerHTML = tableHTML;
         })
         .catch(error => {
             console.error('Error:', error);
