@@ -68,7 +68,6 @@ jsonDataCache[randomSource].words = shuffleArray(jsonDataCache[randomSource].wor
 // testing purpose
 selectedSources.push(randomSource);
 selectedWords.push(randomWord.word);
-alert(selectedWords);
 
                 } else {
                     console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
@@ -86,3 +85,44 @@ alert(selectedWords);
         }
     })
     .catch(error => console.error('Error fetching JSON:', error));
+
+
+
+
+
+
+// testing
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Assuming you have these arrays already initialized in your code
+    
+    // Function to generate CSV content
+    function generateCSV(selectedWords, selectedSources) {
+        let csvContent = "Word,Source\n";
+        for (let i = 0; i < selectedWords.length; i++) {
+            csvContent += `${selectedWords[i]},${selectedSources[i]}\n`;
+        }
+        return csvContent;
+    }
+    
+    // Function to force download CSV
+    function downloadCSV(content, filename) {
+        const blob = new Blob([content], { type: "text/csv" });
+        const url = window.URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        window.URL.revokeObjectURL(url);
+    }
+    
+    // Check array length and generate CSV when it reaches 100
+    setInterval(function() {
+        if (selectedWords.length === 100) {
+            const csvContent = generateCSV(selectedWords, selectedSources);
+            downloadCSV(csvContent, "selectedData.csv");
+        }
+    }, 1000); // Check every second
+});
