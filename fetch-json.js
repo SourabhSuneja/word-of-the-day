@@ -54,6 +54,10 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
                     document.getElementById('antonym').value = randomWord.antonym;
                     document.getElementById('sentence').value = randomWord.sentence;
                     document.getElementById('pronunciation').value = randomWord.pronunciation;
+
+// re-shuffle word array after fetching a word
+jsonDataCache[randomSource].words = shuffleArray(jsonDataCache[randomSource].words);
+
                 } else {
                     console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
                 }
