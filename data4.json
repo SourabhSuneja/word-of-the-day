@@ -335,7 +335,80 @@
       "antonym": "Division",
       "sentence": "The country aimed for the unification of its different regions.",
       "pronunciation": "yoo-nuh-fi-key-shuhn"
+    },
+    {
+      "word": "Pivotal",
+      "meaning": "Of crucial importance in relation to the development or success of something else; central; crucial.",
+      "synonym": "Critical",
+      "antonym": "Insignificant",
+      "sentence": "His pivotal discovery changed the course of scientific research.",
+      "pronunciation": "piv-uh-tl"
+    },
+    {
+      "word": "Prevalence",
+      "meaning": "The fact or condition of being widespread or common; the frequency with which something occurs.",
+      "synonym": "Ubiquity",
+      "antonym": "Rareness",
+      "sentence": "The prevalence of smartphones has transformed the way we communicate.",
+      "pronunciation": "prev-uh-luhns"
+    },
+    {
+      "word": "Insatiable",
+      "meaning": "Incapable of being satisfied or appeased; constantly wanting more; voracious.",
+      "synonym": "Unquenchable",
+      "antonym": "Satisfied",
+      "sentence": "His insatiable hunger for knowledge drove him to pursue multiple degrees.",
+      "pronunciation": "in-sey-shuh-buhl"
+    },
+    {
+      "word": "Churn",
+      "meaning": "To stir or agitate violently; to move about restlessly; to produce by agitation or commotion.",
+      "synonym": "Agitate",
+      "antonym": "Calm",
+      "sentence": "The storm churned the sea into a frothy mass of waves.",
+      "pronunciation": "churn"
+    },
+    {
+      "word": "Eternal",
+      "meaning": "Lasting or existing forever; without end or beginning; timeless.",
+      "synonym": "Everlasting",
+      "antonym": "Temporary",
+      "sentence": "Their love was eternal, transcending time and space.",
+      "pronunciation": "ih-tur-nl"
+    },
+    {
+      "word": "Rugged",
+      "meaning": "Having a rough, uneven, or jagged surface; not smooth or polished; sturdy and strong in character or construction.",
+      "synonym": "Rough",
+      "antonym": "Smooth",
+      "sentence": "The rugged terrain challenged even the most experienced hikers.",
+      "pronunciation": "ruhg-id"
+    },
+    {
+      "word": "Jagged",
+      "meaning": "Having rough, sharp points protruding irregularly; uneven or irregular in shape; notched or serrated.",
+      "synonym": "Pointed",
+      "antonym": "Smooth",
+      "sentence": "The jagged cliffs rose sharply from the turbulent sea below.",
+      "pronunciation": "jag-id"
+    },
+    {
+      "word": "Halt",
+      "meaning": "To bring or come to an abrupt stop; to cease or discontinue; a temporary stop or interruption.",
+      "synonym": "Stop",
+      "antonym": "Continue",
+      "sentence": "The train came to a halt as it reached the end of the line.",
+      "pronunciation": "hawlt"
+    },
+    {
+      "word": "Tattered",
+      "meaning": "Torn or ragged; in poor condition; worn-out or dilapidated.",
+      "synonym": "Shabby",
+      "antonym": "New",
+      "sentence": "He wore a tattered old coat that had seen better days.",
+      "pronunciation": "tat-erd"
     }
+    
 
   ]
 }
