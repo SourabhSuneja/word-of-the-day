@@ -137,5 +137,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function getRandomInterval() {
-    return Math.floor(Math.random() * (3000 - 1000) + 1000); // Random interval between 1000ms and 3000ms
+    return Math.floor(Math.random() * (1500 - 1000) + 1000); // Random interval between 1000ms and 1500ms
 }
