@@ -1,3 +1,9 @@
+// testing purpose
+var selectedWords = [];
+var selectedSources = [];
+
+
+
 // Array of JSON file sources
 var jsonSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json']; // Add more sources as needed
 var jsonDataCache = {}; // Cache to store pre-loaded JSON data
@@ -57,6 +63,12 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
 
 // re-shuffle word array after fetching a word
 jsonDataCache[randomSource].words = shuffleArray(jsonDataCache[randomSource].words);
+
+
+// testing purpose
+selectedSources.push(randomSource);
+selectedWords.push(randomWord.word);
+alert(selectedWords);
 
                 } else {
                     console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
