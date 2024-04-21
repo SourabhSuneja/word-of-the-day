@@ -2,9 +2,6 @@
 var jsonSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json']; // Add more sources as needed
 var jsonDataCache = {}; // Cache to store pre-loaded JSON data
 
-// Constant to determine which randomization technique to use
-const USE_CRYPTO_RANDOM = true; // Set to true to use crypto.getRandomValues(), false to use Math.random()
-
 // Function to fetch and cache JSON data
 function fetchAndCacheJsonData(source) {
     return fetch(source)
@@ -29,28 +26,15 @@ Promise.all(jsonSources.map(source => fetchAndCacheJsonData(source)))
                 // Event handler logic when the checkbox is checked
 
                 // Randomly select a JSON file source
-                var randomSourceIndex;
-                if (USE_CRYPTO_RANDOM) {
-                    randomSourceIndex = getRandomIndexCrypto(jsonSources.length);
-                } else {
-                    randomSourceIndex = getRandomIndexMath(jsonSources.length);
-                }
-                console.log('Random source index:', randomSourceIndex);
-                var randomSource = jsonSources[randomSourceIndex];
+                var randomSource = jsonSources[Math.floor(Math.random() * jsonSources.length)];
 
                 // Use the pre-loaded JSON data from the cache
                 var jsonData = jsonDataCache[randomSource];
 
                 if (jsonData) {
                     // Pick a random word
-                    var randomWordIndex;
-                    if (USE_CRYPTO_RANDOM) {
-                        randomWordIndex = getRandomIndexCrypto(jsonData.words.length);
-                    } else {
-                        randomWordIndex = getRandomIndexMath(jsonData.words.length);
-                    }
-                    console.log('Random word index:', randomWordIndex);
-                    var randomWord = jsonData.words[randomWordIndex];
+                    var randomIndex = Math.floor(Math.random() * jsonData.words.length);
+                    var randomWord = jsonData.words[randomIndex];
 
                     // Insert data into corresponding input fields
                     document.getElementById('word').value = randomWord.word;
