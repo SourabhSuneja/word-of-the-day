@@ -32,6 +32,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
         } else {
             randomSourceIndex = getRandomIndexMath(jsonSources.length);
         }
+        console.log('Random source index:', randomSourceIndex);
         var randomSource = jsonSources[randomSourceIndex];
 
         // Use the pre-loaded JSON data from the cache
@@ -45,6 +46,7 @@ document.getElementById('loadFromJson').addEventListener('click', function () {
             } else {
                 randomWordIndex = getRandomIndexMath(jsonData.words.length);
             }
+            console.log('Random word index:', randomWordIndex);
             var randomWord = jsonData.words[randomWordIndex];
 
             // Insert data into corresponding input fields
