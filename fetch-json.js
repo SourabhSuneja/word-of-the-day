@@ -2,13 +2,23 @@
 var jsonSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json']; // Add more sources as needed
 var jsonDataCache = {}; // Cache to store pre-loaded JSON data
 
+
+// Shuffle array function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
 // Function to fetch and cache JSON data
 function fetchAndCacheJsonData(source) {
     return fetch(source)
         .then(response => response.json())
         .then(jsonData => {
             jsonDataCache[source] = jsonData;
-alert(jsonDataCache[source].words);
+       jsonDataCache[source].words = shuffleArray(jsonDataCache[source].words);
         })
         .catch(error => console.error(`Error fetching JSON from ${source}:`, error));
 }
