@@ -1,6 +1,6 @@
 // testing purpose
-var selectedWords = [];
-var selectedSources = [];
+// var selectedWords = [];
+// var selectedSources = [];
 
 
 
@@ -66,8 +66,8 @@ jsonDataCache[randomSource].words = shuffleArray(jsonDataCache[randomSource].wor
 
 
 // testing purpose
-selectedSources.push(randomSource);
-selectedWords.push(randomWord.word);
+// selectedSources.push(randomSource);
+// selectedWords.push(randomWord.word);
 
                 } else {
                     console.error(`Error: JSON data for ${randomSource} not pre-loaded.`);
@@ -91,7 +91,7 @@ selectedWords.push(randomWord.word);
 
 
 
-// testing
+/*
 
 document.addEventListener("DOMContentLoaded", function() {
     // Assuming you have these arrays already initialized in your code
@@ -139,3 +139,5 @@ document.addEventListener("DOMContentLoaded", function() {
 function getRandomInterval() {
     return Math.floor(Math.random() * (3000 - 1000) + 1000); // Random interval between 1000ms and 3000ms
 }
+
+*/
