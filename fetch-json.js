@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Check array length and generate CSV when it reaches 100
     setInterval(function() {
-        if (selectedWords.length === 100) {
+        if (selectedWords.length === 500) {
             const csvContent = generateCSV(selectedWords, selectedSources);
             downloadCSV(csvContent, "selectedData.csv");
         }
@@ -137,5 +137,5 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function getRandomInterval() {
-    return Math.floor(Math.random() * (1500 - 1000) + 1000); // Random interval between 1000ms and 1500ms
+    return Math.floor(Math.random() * (3000 - 1000) + 1000); // Random interval between 1000ms and 3000ms
 }
