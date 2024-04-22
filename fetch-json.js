@@ -120,11 +120,11 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // Check array length and generate CSV when it reaches 100
     setInterval(function() {
-        if (selectedWords.length === 500) {
+        if (selectedWords.length >= 500) {
             const csvContent = generateCSV(selectedWords, selectedSources);
             downloadCSV(csvContent, "selectedData.csv");
         }
-    }, 1000); // Check every second
+    }, 500); // Check every half second
 });
 
 
