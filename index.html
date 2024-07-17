@@ -232,7 +232,7 @@ h1 {
 
 
 
-<div id = "form" style= "position: absolute; top: 0; height: 100%; width: 100%; padding-left: 8px;">
+<div id = "form" style= "position: absolute; top: 0; height: 100%; width: 100%; padding-left: 8px; display: none;">
 
 <h1 class="os">Word of the Day Generator</h1>
 <h2>Powered by Sourabh Suneja</h2>
@@ -759,6 +759,7 @@ checkbox.addEventListener("change", function() {
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const overlay = document.getElementById("overlay");
+        const form = document.getElementById("form");
         const passwordInput = document.getElementById("passwordInput");
         const submitBtn = document.getElementById("submitBtn");
         const correctPassword = "hrxtr";
@@ -766,6 +767,7 @@ checkbox.addEventListener("change", function() {
         submitBtn.addEventListener("click", function() {
             if (passwordInput.value === correctPassword) {
                 overlay.style.display = "none";
+form.style.display = "block";
             } else {
                 alert("Incorrect password. Please try again.");
             }
