@@ -165,6 +165,38 @@ h1 {
   max-width: 360px;
 }
 
+
+
+#overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        #passwordPrompt {
+            text-align: center;
+        }
+        #passwordInput {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        #submitBtn {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+
+
+
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -186,6 +218,17 @@ h1 {
 
 </head>
 <body class="roboto">
+
+
+
+<div id="overlay">
+        <div id="passwordPrompt">
+            <h2>Enter Password to Access the Page</h2>
+            <input type="password" id="passwordInput" placeholder="Enter password" />
+            <button id="submitBtn">Submit</button>
+        </div>
+    </div>
+
 
 
 
@@ -709,6 +752,38 @@ checkbox.addEventListener("change", function() {
   document.addEventListener('touchend', endDragTemplate);
   document.addEventListener('touchmove', dragTemplate);
 </script>
+
+
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const overlay = document.getElementById("overlay");
+        const passwordInput = document.getElementById("passwordInput");
+        const submitBtn = document.getElementById("submitBtn");
+        const correctPassword = "hrxtr";
+
+        submitBtn.addEventListener("click", function() {
+            if (passwordInput.value === correctPassword) {
+                overlay.style.display = "none";
+            } else {
+                alert("Incorrect password. Please try again.");
+            }
+        });
+
+        passwordInput.addEventListener("keypress", function(event) {
+            if (event.key === "Enter") {
+                submitBtn.click();
+            }
+        });
+    });
+</script>
+
+
+
+
+
+
 
 </body>
 </html>
