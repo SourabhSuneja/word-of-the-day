@@ -5,7 +5,7 @@
 
 
 // Array of JSON file sources
-var jsonSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json']; // Add more sources as needed
+var jsonSources = ['data1.json', 'data2.json', 'data3.json', 'data4.json', 'data5.json', 'data6.json', 'data7.json', 'data8.json']; // Add more sources as needed
 var jsonDataCache = {}; // Cache to store pre-loaded JSON data
 
 
